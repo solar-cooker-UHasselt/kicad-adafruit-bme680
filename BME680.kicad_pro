@@ -561,7 +561,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "empty.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -572,6 +572,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "ba694707-55c1-41d4-b2e7-4006a8fc6a7f",
+      "Adafruit BME680_0"
+    ]
+  ],
   "text_variables": {}
 }
