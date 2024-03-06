@@ -7,6 +7,10 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "BME680")
+		(date "2024-03-06")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" signal)
@@ -18128,7 +18132,7 @@
 		)
 		(fp_arc
 			(start 0.3 -0.799998)
-			(mid -0.000001 -0.524966)
+			(mid -0.000001 -0.524967)
 			(end -0.3 -0.8)
 			(stroke
 				(width 0.1016)
@@ -18501,7 +18505,7 @@
 		(uuid "18136cfd-6110-432f-9316-ebd18fa49cbc")
 		(at 158.2801 109.4486 90)
 		(property "Reference" "U$30"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
@@ -18514,7 +18518,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 270)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -18527,7 +18531,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 270)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -18540,7 +18544,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -18553,7 +18557,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
