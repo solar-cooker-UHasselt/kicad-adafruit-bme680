@@ -2220,550 +2220,6 @@
 				)
 			)
 		)
-		(symbol "BME680-eagle-import:RESISTOR_0603_NOOUT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-						(bold yes)
-					)
-				)
-			)
-			(property "Footprint" "BME680:0603-NO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RESISTOR_0603_NOOUT_1_0"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "BME680-eagle-import:RESISTOR_4PACK"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-						(bold yes)
-					)
-				)
-			)
-			(property "Footprint" "BME680:RESPACK_4X0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor Packs (4 resistors)\n\n4 x 0603\n\n• 10K 1/16W - Digikey: YC164J-10KCT-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RESISTOR_4PACK_1_0"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(symbol "RESISTOR_4PACK_2_0"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(symbol "RESISTOR_4PACK_3_0"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(symbol "RESISTOR_4PACK_4_0"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "BME680-eagle-import:SOLDERJUMPER"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3328,6 +2784,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -3737,6 +3314,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 33.02) (xy 182.88 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "040737cf-46ff-4b40-a9a8-4d0e71d35260")
+	)
+	(wire
+		(pts
 			(xy 99.06 139.7) (xy 93.98 139.7)
 		)
 		(stroke
@@ -3824,6 +3411,16 @@
 			(type solid)
 		)
 		(uuid "1bf7b681-50b5-417f-9b88-b73ff0d88b30")
+	)
+	(wire
+		(pts
+			(xy 182.88 41.91) (xy 182.88 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "286b1a79-6ab5-46e8-a017-5bf6058b7a66")
 	)
 	(wire
 		(pts
@@ -4047,6 +3644,26 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 41.91) (xy 147.32 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "625aefb7-e451-4fc7-99e4-3fc370237617")
+	)
+	(wire
+		(pts
+			(xy 139.7 33.02) (xy 139.7 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6466c98f-0b68-47e5-95ae-5bbad798616f")
+	)
+	(wire
+		(pts
 			(xy 124.46 132.08) (xy 139.7 132.08)
 		)
 		(stroke
@@ -4097,16 +3714,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 43.18) (xy 175.26 55.88)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "77d95ff6-2b12-4b96-8136-7218d478b9d7")
-	)
-	(wire
-		(pts
 			(xy 246.38 116.84) (xy 261.62 116.84)
 		)
 		(stroke
@@ -4147,6 +3754,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 115.57) (xy 246.38 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8584ef6e-79ae-4035-a78f-9a95d097fa2c")
+	)
+	(wire
+		(pts
 			(xy 93.98 129.54) (xy 93.98 124.46)
 		)
 		(stroke
@@ -4174,6 +3791,16 @@
 			(type solid)
 		)
 		(uuid "959425b6-eade-4ce4-99bb-1824fe879577")
+	)
+	(wire
+		(pts
+			(xy 96.52 33.02) (xy 96.52 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96fd7f62-f0dc-4ad6-87ab-3f5f0458d5cd")
 	)
 	(wire
 		(pts
@@ -4227,6 +3854,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 41.91) (xy 96.52 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b84ed1ca-678a-4a4c-aa22-c13ae11b8ef1")
+	)
+	(wire
+		(pts
 			(xy 43.18 88.9) (xy 43.18 81.28)
 		)
 		(stroke
@@ -4267,7 +3904,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 33.02) (xy 147.32 30.48)
+			(xy 147.32 30.48) (xy 147.32 34.29)
 		)
 		(stroke
 			(width 0.1524)
@@ -4347,6 +3984,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 110.49) (xy 205.74 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de0095ba-9673-4996-9c71-dac95ef08d12")
+	)
+	(wire
+		(pts
 			(xy 58.42 93.98) (xy 45.72 93.98)
 		)
 		(stroke
@@ -4367,6 +4014,26 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 41.91) (xy 139.7 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6fabb30-f358-46e5-a51e-b753f7b08b2f")
+	)
+	(wire
+		(pts
+			(xy 205.74 101.6) (xy 205.74 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7529a0f-c5da-4f3b-af02-559d848128fd")
+	)
+	(wire
+		(pts
 			(xy 68.58 35.56) (xy 68.58 38.1)
 		)
 		(stroke
@@ -4384,6 +4051,16 @@
 			(type solid)
 		)
 		(uuid "ea77322c-76f9-4a55-9179-db21699e39e1")
+	)
+	(wire
+		(pts
+			(xy 175.26 33.02) (xy 175.26 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece65bd3-376b-4cb1-bdb8-1a60f4993fa0")
 	)
 	(wire
 		(pts
@@ -4437,6 +4114,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 106.68) (xy 246.38 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8045ed-58d0-48e1-a392-d9e06ae77a47")
+	)
+	(wire
+		(pts
 			(xy 246.38 132.08) (xy 246.38 127)
 		)
 		(stroke
@@ -4444,6 +4131,16 @@
 			(type solid)
 		)
 		(uuid "fce5166f-9544-4490-9955-3c8c8283f28c")
+	)
+	(wire
+		(pts
+			(xy 175.26 41.91) (xy 175.26 55.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ffe69f5b-8492-4bc8-8dde-e8c689faae1a")
 	)
 	(text "I2C Pullups"
 		(exclude_from_sim no)
@@ -5029,8 +4726,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:RESISTOR_0603_NOOUT")
-		(at 246.38 111.76 90)
+		(lib_id "Device:R")
+		(at 246.38 111.76 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5038,7 +4735,7 @@
 		(dnp no)
 		(uuid "280f1a2a-bb6e-467c-b063-932bd028026c")
 		(property "Reference" "R4"
-			(at 243.84 111.76 0)
+			(at 244.094 110.744 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5046,7 +4743,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 246.38 111.76 0)
+			(at 246.38 111.76 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5055,6 +4752,15 @@
 			)
 		)
 		(property "Footprint" "BME680:0603-NO"
+			(at 248.158 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 246.38 111.76 0)
 			(effects
 				(font
@@ -5063,16 +4769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 246.38 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 246.38 111.76 0)
 			(effects
 				(font
@@ -5311,8 +5008,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:RESISTOR_0603_NOOUT")
-		(at 96.52 38.1 270)
+		(lib_id "Device:R")
+		(at 96.52 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5320,7 +5017,7 @@
 		(dnp no)
 		(uuid "4434cf0c-791e-4b12-b8ca-3c0168f89b83")
 		(property "Reference" "R1"
-			(at 99.06 38.1 0)
+			(at 94.234 37.084 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5328,7 +5025,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 96.52 38.1 0)
+			(at 96.52 38.1 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5337,6 +5034,15 @@
 			)
 		)
 		(property "Footprint" "BME680:0603-NO"
+			(at 94.742 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 96.52 38.1 0)
 			(effects
 				(font
@@ -5345,16 +5051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 96.52 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 96.52 38.1 0)
 			(effects
 				(font
@@ -5461,92 +5158,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:RESISTOR_4PACK")
-		(at 147.32 38.1 270)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "547a2815-6eeb-4c5a-b230-b3e284879d01")
-		(property "Reference" "R3"
-			(at 149.86 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 147.32 38.1 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" "BME680:RESPACK_4X0603"
-			(at 147.32 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4dc74464-48c3-4d65-b59e-495af1f534ac")
-		)
-		(pin "8"
-			(uuid "dfbeeeb8-eafb-43a5-99bf-4f2788b1e446")
-		)
-		(pin "2"
-			(uuid "82e8d41b-94f7-4459-a6ac-985f98c40e78")
-		)
-		(pin "7"
-			(uuid "2dc7257b-f372-4b61-8e8d-59072da3a6a0")
-		)
-		(pin "3"
-			(uuid "046fe3cc-e41a-4244-81ed-0426450abaeb")
-		)
-		(pin "6"
-			(uuid "041831a8-7462-4013-a4e0-e9901d20739c")
-		)
-		(pin "4"
-			(uuid "9d875fd1-6bf2-47ac-ab1c-d5ac07f17128")
-		)
-		(pin "5"
-			(uuid "3ce048d8-4934-4ee5-9c1f-218a0904a5aa")
-		)
-		(instances
-			(project "BME680"
-				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "R3")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "BME680-eagle-import:DIODESOD-323")
 		(at 220.98 116.84 0)
 		(unit 1)
@@ -5614,16 +5225,16 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:RESISTOR_4PACK")
-		(at 139.7 38.1 270)
+		(lib_id "Device:R")
+		(at 139.7 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "572c5b05-3dc7-4310-9023-d7c59da6b0e7")
-		(property "Reference" "R3"
-			(at 142.24 38.1 0)
+		(property "Reference" "R3A"
+			(at 136.652 37.846 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5631,7 +5242,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 139.7 38.1 0)
+			(at 139.7 38.1 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5640,6 +5251,15 @@
 			)
 		)
 		(property "Footprint" "BME680:RESPACK_4X0603"
+			(at 137.922 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 139.7 38.1 0)
 			(effects
 				(font
@@ -5648,16 +5268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 139.7 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 139.7 38.1 0)
 			(effects
 				(font
@@ -5669,31 +5280,13 @@
 		(pin "1"
 			(uuid "4a28e12a-26ce-4873-97c8-fabda9f02373")
 		)
-		(pin "8"
-			(uuid "a5ebdcf2-8858-490f-84f1-73ea532a7681")
-		)
 		(pin "2"
 			(uuid "6497e442-96cf-4c2f-81a5-b1c7f41429cd")
-		)
-		(pin "7"
-			(uuid "1915b87f-736a-41e6-8889-21134ef9679c")
-		)
-		(pin "3"
-			(uuid "55fd50b1-86b0-45ff-8f7b-e332510f9788")
-		)
-		(pin "6"
-			(uuid "16510433-3a28-4bfd-9953-318348b1673f")
-		)
-		(pin "4"
-			(uuid "76b61c9b-4268-4f46-af33-aa13a6197cf1")
-		)
-		(pin "5"
-			(uuid "18004be1-ba98-4bbd-8d01-190e521aa019")
 		)
 		(instances
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "R3")
+					(reference "R3A")
 					(unit 1)
 				)
 			)
@@ -5757,6 +5350,144 @@
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
 					(reference "U$1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 175.26 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "604f5919-42c6-45d2-ac1d-119177922a46")
+		(property "Reference" "R3B"
+			(at 172.974 40.132 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 175.26 39.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.482 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 175.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9dddc47f-e46c-49ef-9b60-43082ee76bc7")
+		)
+		(pin "1"
+			(uuid "dbcaa9f5-dc25-4b4c-a1df-95cdb1a6ffa7")
+		)
+		(instances
+			(project "BME680"
+				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
+					(reference "R3B")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 182.88 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65fd6644-d444-44e3-aaa8-79d770c70639")
+		(property "Reference" "R3D"
+			(at 180.594 40.132 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 182.88 39.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.102 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 182.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a82012b-8ce2-47b1-b81b-1ada38e87292")
+		)
+		(pin "1"
+			(uuid "848dd2fd-77f2-4b9b-b1af-63df8e37b460")
+		)
+		(instances
+			(project "BME680"
+				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
+					(reference "R3D")
 					(unit 1)
 				)
 			)
@@ -6177,8 +5908,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:RESISTOR_0603_NOOUT")
-		(at 205.74 106.68 90)
+		(lib_id "Device:R")
+		(at 205.74 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6186,7 +5917,7 @@
 		(dnp no)
 		(uuid "7a882cea-f3fb-4f46-a589-fadb8b4f6ce9")
 		(property "Reference" "R5"
-			(at 203.2 106.68 0)
+			(at 203.708 107.188 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6194,7 +5925,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 205.74 106.68 0)
+			(at 205.74 106.68 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6203,6 +5934,15 @@
 			)
 		)
 		(property "Footprint" "BME680:0603-NO"
+			(at 207.518 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 205.74 106.68 0)
 			(effects
 				(font
@@ -6211,16 +5951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 205.74 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 205.74 106.68 0)
 			(effects
 				(font
@@ -6930,93 +6661,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:RESISTOR_4PACK")
-		(at 182.88 38.1 90)
-		(mirror x)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b8ab9bf3-6c0f-434f-a14a-6618491b71b8")
-		(property "Reference" "R3"
-			(at 180.34 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 182.88 38.1 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" "BME680:RESPACK_4X0603"
-			(at 182.88 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 182.88 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31200587-0607-4ece-a0f3-9bcddc31be33")
-		)
-		(pin "8"
-			(uuid "0ea875d0-70f1-48bd-87b8-ed87b4f5b92a")
-		)
-		(pin "2"
-			(uuid "5e25c238-ed3a-49f1-9db4-73d2fd01fe41")
-		)
-		(pin "7"
-			(uuid "72481b0f-5d47-4d00-8504-3416f95ab596")
-		)
-		(pin "3"
-			(uuid "49bacf96-6e4d-45ff-b917-7806c2ac3867")
-		)
-		(pin "6"
-			(uuid "9cc390f8-8f1e-44d2-a204-0c7f28f07fb8")
-		)
-		(pin "4"
-			(uuid "52b80541-bd8f-4fb7-abe8-548e3b716e43")
-		)
-		(pin "5"
-			(uuid "359766dd-0d56-43fc-b28d-5774b72b409f")
-		)
-		(instances
-			(project "BME680"
-				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "R3")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 147.32 30.48 0)
 		(unit 1)
@@ -7144,6 +6788,75 @@
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 147.32 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb45cd9a-e74b-4165-b176-a00b7d1edf27")
+		(property "Reference" "R3C"
+			(at 145.034 40.132 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 147.32 39.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 145.542 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 147.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3aae111c-b5f1-4529-beb8-b8010286d0b1")
+		)
+		(pin "1"
+			(uuid "14a19234-e8e5-4d76-acce-d02e30811706")
+		)
+		(instances
+			(project "BME680"
+				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
+					(reference "R3C")
 					(unit 1)
 				)
 			)
@@ -7427,93 +7140,6 @@
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
 					(reference "#U$16")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BME680-eagle-import:RESISTOR_4PACK")
-		(at 175.26 38.1 90)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e28c313e-107e-4463-8c73-569287b8cea4")
-		(property "Reference" "R3"
-			(at 172.72 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 175.26 38.1 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" "BME680:RESPACK_4X0603"
-			(at 175.26 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "667928ac-eb3f-4e7f-9fa3-5286a0688b91")
-		)
-		(pin "8"
-			(uuid "e3691012-06df-4bc3-ae62-fd041bc0387f")
-		)
-		(pin "2"
-			(uuid "d4b7b0fb-f78b-4b0e-9101-c820a94e16b0")
-		)
-		(pin "7"
-			(uuid "1952bcd6-39f1-4665-948b-c34d78bd486a")
-		)
-		(pin "3"
-			(uuid "ff76a666-ed75-4ff8-8877-51df7f3c9133")
-		)
-		(pin "6"
-			(uuid "313cebd8-d668-41df-b5b6-8cd23e3e6aa7")
-		)
-		(pin "4"
-			(uuid "c0a4e97c-0a30-4b79-898b-3a87ee9993dc")
-		)
-		(pin "5"
-			(uuid "46e15be5-6417-4665-8f46-36da3dc76643")
-		)
-		(instances
-			(project "BME680"
-				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "R3")
-					(unit 2)
 				)
 			)
 		)
