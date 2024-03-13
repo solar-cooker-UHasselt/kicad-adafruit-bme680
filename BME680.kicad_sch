@@ -1536,150 +1536,6 @@
 				)
 			)
 		)
-		(symbol "BME680-eagle-import:SOLDERJUMPER"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SJ"
-				(at -2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "BME680:SOLDERJUMPER_ARROW_NOPASTE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Solder JUMPER\n\nSolder the two pads together to create a connection, or remove the solder to break it.\n\nREFLOW - Use this footprint for solder paste and reflow ovens. WAVE - Use this footprint for hand-soldering (larger pads).\n\nCLOSED - Has a trace between the two pads to ensure it is closed by default.  The trace needs to be cut to disable the jumper, and can be closed again by creating a solder bridge between the two pads."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SOLDERJUMPER_1_0"
-				(arc
-					(start -0.3808 0.635)
-					(mid -1.0159 0.0001)
-					(end -0.381 -0.635)
-					(stroke
-						(width 1.27)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.651 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.651 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.3808 -0.635)
-					(mid 1.0159 -0.0001)
-					(end 0.381 0.635)
-					(stroke
-						(width 1.27)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "BME680-eagle-import:STEMMA_I2C_QT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2689,6 +2545,186 @@
 				)
 			)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -3085,6 +3121,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd95db4f-04ab-446c-9534-7df86c139154")
+	)
+	(wire
+		(pts
+			(xy 246.38 125.73) (xy 246.38 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "014c359e-8446-4600-9b80-a2ed0dac5059")
 	)
 	(polyline
 		(pts
@@ -3605,6 +3651,16 @@
 			(type solid)
 		)
 		(uuid "99c5b6e0-5132-4417-9a65-c0e01e4bcdb2")
+	)
+	(wire
+		(pts
+			(xy 246.38 116.84) (xy 246.38 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a21fe7f8-0733-41a3-a150-0a82c6538ff8")
 	)
 	(wire
 		(pts
@@ -6128,7 +6184,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:SOLDERJUMPER")
+		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 246.38 121.92 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6164,7 +6220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 246.38 121.92 0)
 			(effects
 				(font
@@ -6173,7 +6229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 246.38 121.92 0)
 			(effects
 				(font
