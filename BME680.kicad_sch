@@ -906,97 +906,6 @@
 				)
 			)
 		)
-		(symbol "BME680-eagle-import:GND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at -1.524 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "GND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_1_0"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "BME680-eagle-import:HEADER-1X770MIL"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3522,97 +3431,6 @@
 				)
 			)
 		)
-		(symbol "BME680-eagle-import:supply1_GND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#GND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SUPPLY SYMBOL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "supply1_GND_1_0"
-				(polyline
-					(pts
-						(xy -1.905 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -3715,6 +3533,102 @@
 			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
 					(length 0)
 					(name "~"
 						(effects
@@ -5314,8 +5228,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:GND")
-		(at 78.74 53.34 0)
+		(lib_id "power:GND")
+		(at 78.74 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5323,7 +5237,7 @@
 		(dnp no)
 		(uuid "393d0ef9-ae9e-4113-9d9c-59ccca1c1f6a")
 		(property "Reference" "#U$6"
-			(at 78.74 53.34 0)
+			(at 78.74 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5332,7 +5246,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.216 55.88 0)
+			(at 76.962 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -5341,7 +5255,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 53.34 0)
+			(at 78.74 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5350,7 +5264,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 53.34 0)
+			(at 78.74 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5358,8 +5272,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 78.74 53.34 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5898,8 +5812,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:supply1_GND")
-		(at 96.52 55.88 0)
+		(lib_id "power:GND")
+		(at 96.52 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5907,7 +5821,7 @@
 		(dnp no)
 		(uuid "6947e034-f6fd-4876-9d2a-a6c9162d32e9")
 		(property "Reference" "#GND6"
-			(at 96.52 55.88 0)
+			(at 96.52 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5916,7 +5830,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 58.42 0)
+			(at 94.234 58.42 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5925,7 +5839,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 55.88 0)
+			(at 96.52 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5934,7 +5848,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 55.88 0)
+			(at 96.52 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5942,8 +5856,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 96.52 55.88 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6466,8 +6380,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:GND")
-		(at 246.38 134.62 0)
+		(lib_id "power:GND")
+		(at 246.38 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6475,7 +6389,7 @@
 		(dnp no)
 		(uuid "93e126ac-0e13-4faf-a39c-e73636aebef3")
 		(property "Reference" "#U$9"
-			(at 246.38 134.62 0)
+			(at 246.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6484,7 +6398,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 244.856 137.16 0)
+			(at 244.856 136.906 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6493,7 +6407,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 134.62 0)
+			(at 246.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6502,7 +6416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 134.62 0)
+			(at 246.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6510,8 +6424,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 246.38 134.62 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6598,8 +6512,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:GND")
-		(at 93.98 147.32 0)
+		(lib_id "power:GND")
+		(at 93.98 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6607,7 +6521,7 @@
 		(dnp no)
 		(uuid "a12c15eb-9248-4505-aa4f-2de09e6403d2")
 		(property "Reference" "#U$19"
-			(at 93.98 147.32 0)
+			(at 93.98 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6625,7 +6539,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 147.32 0)
+			(at 93.98 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6634,7 +6548,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 147.32 0)
+			(at 93.98 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6642,8 +6556,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 93.98 147.32 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6734,8 +6648,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:GND")
-		(at 68.58 53.34 0)
+		(lib_id "power:GND")
+		(at 68.58 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6743,7 +6657,7 @@
 		(dnp no)
 		(uuid "ac3b0a71-a0fa-42c1-839f-3161debab21b")
 		(property "Reference" "#U$5"
-			(at 68.58 53.34 0)
+			(at 68.58 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6752,7 +6666,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.056 55.88 0)
+			(at 66.802 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6761,7 +6675,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 53.34 0)
+			(at 68.58 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6770,7 +6684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 53.34 0)
+			(at 68.58 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6778,8 +6692,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 68.58 53.34 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6867,8 +6781,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:GND")
-		(at 27.94 53.34 0)
+		(lib_id "power:GND")
+		(at 27.94 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6876,7 +6790,7 @@
 		(dnp no)
 		(uuid "b300b20d-d62a-46d3-829d-6b69bf429949")
 		(property "Reference" "#U$13"
-			(at 27.94 53.34 0)
+			(at 27.94 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6885,7 +6799,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 26.416 55.88 0)
+			(at 26.162 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6894,7 +6808,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 53.34 0)
+			(at 27.94 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6903,7 +6817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 53.34 0)
+			(at 27.94 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6911,8 +6825,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 27.94 53.34 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7369,8 +7283,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:GND")
-		(at 68.58 93.98 0)
+		(lib_id "power:GND")
+		(at 68.58 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7378,7 +7292,7 @@
 		(dnp no)
 		(uuid "dcc64f13-bcad-4266-8095-3b12a4b247e2")
 		(property "Reference" "#U$10"
-			(at 68.58 93.98 0)
+			(at 68.58 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7387,7 +7301,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.056 96.52 0)
+			(at 66.802 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -7396,7 +7310,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 93.98 0)
+			(at 68.58 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7405,7 +7319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 93.98 0)
+			(at 68.58 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7413,8 +7327,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 68.58 93.98 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
