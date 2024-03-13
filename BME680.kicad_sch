@@ -9,109 +9,6 @@
 		(date "2024-03-06")
 	)
 	(lib_symbols
-		(symbol "BME680-eagle-import:3.3V"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at -1.524 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3.3V Supply"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "3.3V_1_0"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "3.3V"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "BME680-eagle-import:BME680"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3716,6 +3613,126 @@
 				)
 			)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 175.26 55.88)
@@ -4806,8 +4823,8 @@
 		(uuid "f37e5457-7aa9-4e97-8ba8-a4e2c1fde33c")
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:3.3V")
-		(at 182.88 27.94 0)
+		(lib_id "power:+3.3V")
+		(at 182.88 30.48 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4816,7 +4833,7 @@
 		(dnp no)
 		(uuid "020750f0-3e26-4cd8-8e8c-a7ad21cd1ccc")
 		(property "Reference" "#U$7"
-			(at 182.88 27.94 0)
+			(at 182.88 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4825,7 +4842,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 184.404 26.924 0)
+			(at 184.658 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -4834,7 +4851,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 27.94 0)
+			(at 182.88 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4843,7 +4860,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 27.94 0)
+			(at 182.88 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4851,8 +4868,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 182.88 27.94 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 182.88 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5231,8 +5248,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:3.3V")
-		(at 96.52 30.48 0)
+		(lib_id "power:+3.3V")
+		(at 96.52 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5240,7 +5257,7 @@
 		(dnp no)
 		(uuid "3180da31-8e7e-4c52-83ee-1ce3c2128448")
 		(property "Reference" "#U$3"
-			(at 96.52 30.48 0)
+			(at 96.52 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5249,7 +5266,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 94.996 29.464 0)
+			(at 94.742 29.972 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -5258,7 +5275,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 30.48 0)
+			(at 96.52 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5267,7 +5284,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 30.48 0)
+			(at 96.52 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5275,8 +5292,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 96.52 30.48 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 96.52 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6096,8 +6113,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:3.3V")
-		(at 68.58 30.48 0)
+		(lib_id "power:+3.3V")
+		(at 68.58 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6105,7 +6122,7 @@
 		(dnp no)
 		(uuid "6ee183c0-8734-4ff4-9d48-66e9a31eefa4")
 		(property "Reference" "#U$15"
-			(at 68.58 30.48 0)
+			(at 68.58 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6114,7 +6131,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 67.056 29.464 0)
+			(at 66.802 29.972 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6123,7 +6140,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 30.48 0)
+			(at 68.58 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6132,7 +6149,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 30.48 0)
+			(at 68.58 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6140,8 +6157,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 68.58 30.48 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 68.58 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6162,8 +6179,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:3.3V")
-		(at 157.48 27.94 0)
+		(lib_id "power:+3.3V")
+		(at 157.48 30.48 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6172,7 +6189,7 @@
 		(dnp no)
 		(uuid "6fea6075-18e3-4339-bc88-86714e7ae670")
 		(property "Reference" "#U$26"
-			(at 157.48 27.94 0)
+			(at 157.48 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6181,7 +6198,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 159.004 26.924 0)
+			(at 159.512 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6190,7 +6207,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 27.94 0)
+			(at 157.48 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6199,7 +6216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 27.94 0)
+			(at 157.48 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6207,8 +6224,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 157.48 27.94 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 157.48 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6382,8 +6399,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:3.3V")
-		(at 167.64 27.94 0)
+		(lib_id "power:+3.3V")
+		(at 167.64 30.48 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6392,7 +6409,7 @@
 		(dnp no)
 		(uuid "8f2119b8-62e7-4357-93e0-5b172f9b7395")
 		(property "Reference" "#U$23"
-			(at 167.64 27.94 0)
+			(at 167.64 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6401,7 +6418,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 169.164 26.924 0)
+			(at 169.418 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6410,7 +6427,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 27.94 0)
+			(at 167.64 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6419,7 +6436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 27.94 0)
+			(at 167.64 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6427,8 +6444,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 167.64 27.94 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 167.64 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6783,8 +6800,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:3.3V")
-		(at 175.26 27.94 0)
+		(lib_id "power:+3.3V")
+		(at 175.26 30.48 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6793,7 +6810,7 @@
 		(dnp no)
 		(uuid "b273b388-406d-417b-999e-22dd7532c268")
 		(property "Reference" "#U$24"
-			(at 175.26 27.94 0)
+			(at 175.26 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6802,7 +6819,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 176.784 26.924 0)
+			(at 177.038 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6811,7 +6828,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 27.94 0)
+			(at 175.26 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6820,7 +6837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 27.94 0)
+			(at 175.26 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6828,8 +6845,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 175.26 27.94 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 175.26 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6916,8 +6933,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:3.3V")
-		(at 205.74 99.06 0)
+		(lib_id "power:+3.3V")
+		(at 205.74 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6925,7 +6942,7 @@
 		(dnp no)
 		(uuid "b331889f-3533-4e06-bde3-19ca2fa5a748")
 		(property "Reference" "#U$42"
-			(at 205.74 99.06 0)
+			(at 205.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6934,7 +6951,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 204.216 98.044 0)
+			(at 203.962 98.044 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6943,7 +6960,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 99.06 0)
+			(at 205.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6952,7 +6969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 99.06 0)
+			(at 205.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6960,8 +6977,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 205.74 99.06 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 205.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7418,8 +7435,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:3.3V")
-		(at 43.18 78.74 0)
+		(lib_id "power:+3.3V")
+		(at 43.18 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7427,7 +7444,7 @@
 		(dnp no)
 		(uuid "e0817426-cced-4d77-942c-e25b6fe3d112")
 		(property "Reference" "#U$16"
-			(at 43.18 78.74 0)
+			(at 43.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7436,7 +7453,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 41.656 77.724 0)
+			(at 41.402 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -7445,7 +7462,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 78.74 0)
+			(at 43.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7454,7 +7471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 78.74 0)
+			(at 43.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7462,8 +7479,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 43.18 78.74 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 43.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7638,8 +7655,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:3.3V")
-		(at 78.74 30.48 0)
+		(lib_id "power:+3.3V")
+		(at 78.74 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7647,7 +7664,7 @@
 		(dnp no)
 		(uuid "e4bc6aec-5054-491f-9b93-f4e12245d049")
 		(property "Reference" "#U$14"
-			(at 78.74 30.48 0)
+			(at 78.74 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7656,7 +7673,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 77.216 29.464 0)
+			(at 76.962 29.972 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -7665,7 +7682,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 30.48 0)
+			(at 78.74 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7674,7 +7691,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 30.48 0)
+			(at 78.74 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7682,8 +7699,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 78.74 30.48 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 78.74 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7704,8 +7721,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:3.3V")
-		(at 246.38 96.52 0)
+		(lib_id "power:+3.3V")
+		(at 246.38 99.06 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7714,7 +7731,7 @@
 		(dnp no)
 		(uuid "e66605dc-cbc7-4e2c-a4ae-c6ee03a0250a")
 		(property "Reference" "#U$8"
-			(at 246.38 96.52 0)
+			(at 246.38 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7723,7 +7740,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 247.904 95.504 0)
+			(at 248.158 95.758 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -7732,7 +7749,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 96.52 0)
+			(at 246.38 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7741,7 +7758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 96.52 0)
+			(at 246.38 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7749,8 +7766,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 246.38 96.52 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 246.38 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7771,8 +7788,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:3.3V")
-		(at 93.98 121.92 0)
+		(lib_id "power:+3.3V")
+		(at 93.98 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7780,7 +7797,7 @@
 		(dnp no)
 		(uuid "ecc90213-9982-4ffe-94f7-853596ac2766")
 		(property "Reference" "#U$12"
-			(at 93.98 121.92 0)
+			(at 93.98 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7789,7 +7806,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 92.456 120.904 0)
+			(at 92.202 121.412 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -7798,7 +7815,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 121.92 0)
+			(at 93.98 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7807,7 +7824,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 121.92 0)
+			(at 93.98 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7815,8 +7832,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 93.98 121.92 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 93.98 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
