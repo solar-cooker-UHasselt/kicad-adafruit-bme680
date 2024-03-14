@@ -3189,16 +3189,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 50.8) (xy 151.13 45.72)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "27ea10b8-ddc3-4bac-ae16-b676625a727c")
-	)
-	(wire
-		(pts
 			(xy 193.04 41.91) (xy 193.04 43.18)
 		)
 		(stroke
@@ -3226,6 +3216,16 @@
 			(type solid)
 		)
 		(uuid "2dc3f1a0-fccb-4b4e-881e-e7ed1df0ba87")
+	)
+	(wire
+		(pts
+			(xy 151.13 45.72) (xy 152.4 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "315e149e-9622-42f0-ba42-e5c94058159f")
 	)
 	(wire
 		(pts
@@ -3449,16 +3449,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 50.8) (xy 151.13 50.8)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "68623385-fb91-4d6a-9b64-a14f5bfec5c5")
-	)
-	(wire
-		(pts
 			(xy 124.46 132.08) (xy 139.7 132.08)
 		)
 		(stroke
@@ -3656,16 +3646,6 @@
 			(type solid)
 		)
 		(uuid "a7a6618e-2194-4bba-958a-fa85875425d7")
-	)
-	(wire
-		(pts
-			(xy 151.13 45.72) (xy 163.83 45.72)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ad191ad8-4755-4049-8ef1-2b924db0af06")
 	)
 	(wire
 		(pts
@@ -3916,6 +3896,16 @@
 			(type solid)
 		)
 		(uuid "e84058c6-ab74-4912-8e7e-329726a831cd")
+	)
+	(wire
+		(pts
+			(xy 151.13 45.72) (xy 163.83 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e96b9d3c-b87e-4a48-8643-8e6a1f7e5b50")
 	)
 	(wire
 		(pts
@@ -5881,22 +5871,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "64fc6471-393e-4c1f-9ff8-f9e960984151")
+			(uuid "64fc6471-393e-4c1f-9ff8-f9e960984152")
 		)
 		(pin "3"
-			(uuid "9a781664-2791-4c13-b607-5d4265d25d02")
+			(uuid "9a781664-2791-4c13-b607-5d4265d25d03")
 		)
 		(pin "6"
-			(uuid "27651b25-f918-44a2-8e64-3e7a058a8409")
+			(uuid "27651b25-f918-44a2-8e64-3e7a058a840a")
 		)
 		(pin "2"
-			(uuid "b89152fd-e2c5-45b2-a34d-3fd94200f03f")
+			(uuid "b89152fd-e2c5-45b2-a34d-3fd94200f040")
 		)
 		(pin "5"
-			(uuid "411e1a3a-b72a-4fa6-9919-9abaac7560b8")
+			(uuid "411e1a3a-b72a-4fa6-9919-9abaac7560b9")
 		)
 		(pin "4"
-			(uuid "b8dcb3ba-1641-4143-ad87-f2069e5daeb1")
+			(uuid "b8dcb3ba-1641-4143-ad87-f2069e5daeb2")
 		)
 		(instances
 			(project "BME680"
@@ -6507,19 +6497,19 @@
 			)
 		)
 		(pin "4"
-			(uuid "73a0d61a-587c-4ad4-8532-d48977c6d4c4")
+			(uuid "73a0d61a-587c-4ad4-8532-d48977c6d4c5")
 		)
 		(pin "1"
-			(uuid "bb2f5d09-55f3-484f-88d5-16fe7629a57e")
+			(uuid "bb2f5d09-55f3-484f-88d5-16fe7629a57f")
 		)
 		(pin "2"
-			(uuid "f445a3de-bff2-4d2f-af15-cfd3f760067a")
+			(uuid "f445a3de-bff2-4d2f-af15-cfd3f760067b")
 		)
 		(pin "3"
-			(uuid "af0f1999-9acc-4a20-a8c8-3d0673e3ebaf")
+			(uuid "af0f1999-9acc-4a20-a8c8-3d0673e3ebb0")
 		)
 		(pin "5"
-			(uuid "c1aa774d-4ce1-4a45-8285-4eeaf8a9258a")
+			(uuid "c1aa774d-4ce1-4a45-8285-4eeaf8a9258b")
 		)
 		(instances
 			(project "BME680"
@@ -7001,19 +6991,19 @@
 			)
 		)
 		(pin "4"
-			(uuid "73a0d61a-587c-4ad4-8532-d48977c6d4c4")
+			(uuid "73a0d61a-587c-4ad4-8532-d48977c6d4c6")
 		)
 		(pin "1"
-			(uuid "bb2f5d09-55f3-484f-88d5-16fe7629a57e")
+			(uuid "bb2f5d09-55f3-484f-88d5-16fe7629a580")
 		)
 		(pin "2"
-			(uuid "f445a3de-bff2-4d2f-af15-cfd3f760067a")
+			(uuid "f445a3de-bff2-4d2f-af15-cfd3f760067c")
 		)
 		(pin "3"
-			(uuid "af0f1999-9acc-4a20-a8c8-3d0673e3ebaf")
+			(uuid "af0f1999-9acc-4a20-a8c8-3d0673e3ebb1")
 		)
 		(pin "5"
-			(uuid "c1aa774d-4ce1-4a45-8285-4eeaf8a9258a")
+			(uuid "c1aa774d-4ce1-4a45-8285-4eeaf8a9258c")
 		)
 		(instances
 			(project "BME680"
@@ -7409,19 +7399,19 @@
 			)
 		)
 		(pin "4"
-			(uuid "73a0d61a-587c-4ad4-8532-d48977c6d4c4")
+			(uuid "73a0d61a-587c-4ad4-8532-d48977c6d4c7")
 		)
 		(pin "1"
-			(uuid "bb2f5d09-55f3-484f-88d5-16fe7629a57e")
+			(uuid "bb2f5d09-55f3-484f-88d5-16fe7629a581")
 		)
 		(pin "2"
-			(uuid "f445a3de-bff2-4d2f-af15-cfd3f760067a")
+			(uuid "f445a3de-bff2-4d2f-af15-cfd3f760067d")
 		)
 		(pin "3"
-			(uuid "af0f1999-9acc-4a20-a8c8-3d0673e3ebaf")
+			(uuid "af0f1999-9acc-4a20-a8c8-3d0673e3ebb2")
 		)
 		(pin "5"
-			(uuid "c1aa774d-4ce1-4a45-8285-4eeaf8a9258a")
+			(uuid "c1aa774d-4ce1-4a45-8285-4eeaf8a9258d")
 		)
 		(instances
 			(project "BME680"
