@@ -9,27 +9,26 @@
 		(date "2024-03-06")
 	)
 	(lib_symbols
-		(symbol "BME680-eagle-import:3.3V"
-			(power)
+		(symbol "Connector:Conn_01x04_Pin"
+			(pin_names
+				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
+			(property "Reference" "J"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at -1.524 1.016 0)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
 				(effects
 					(font
-						(size 1.27 1.0795)
+						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" ""
@@ -41,7 +40,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -50,109 +49,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "3.3V Supply"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "3.3V_1_0"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "3.3V"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "BME680-eagle-import:BME680"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at -10.16 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -10.16 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "BME680:BME680"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
+			(property "Description" "Generic connector, single row, 01x04, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -169,14 +66,32 @@
 					)
 				)
 			)
-			(symbol "BME680_1_0"
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
 				(polyline
 					(pts
-						(xy -10.16 -7.62) (xy -10.16 -12.7)
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0.1524)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -184,11 +99,11 @@
 				)
 				(polyline
 					(pts
-						(xy -10.16 -7.62) (xy -10.16 7.62)
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0.1524)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -196,11 +111,11 @@
 				)
 				(polyline
 					(pts
-						(xy -10.16 7.62) (xy 10.16 7.62)
+						(xy 1.27 0) (xy 0.8636 0)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0.1524)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -208,136 +123,64 @@
 				)
 				(polyline
 					(pts
-						(xy -10.16 12.7) (xy -10.16 7.62)
+						(xy 1.27 2.54) (xy 0.8636 2.54)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0.1524)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -10.16 12.7) (xy 10.16 12.7)
-					)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0.1524)
+						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 10.16 -12.7) (xy -10.16 -12.7)
-					)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0.1524)
+						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 10.16 -7.62) (xy -10.16 -7.62)
-					)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0.1524)
+						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 10.16 -7.62) (xy 10.16 -12.7)
-					)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0.1524)
+						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 10.16 7.62) (xy 10.16 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 12.7) (xy 10.16 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "-40~~85°C"
-					(at 0 -11.43 0)
-					(effects
-						(font
-							(size 1.27 1.0795)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "1.8-3.6V"
-					(at 0 -9.525 0)
-					(effects
-						(font
-							(size 1.27 1.0795)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "BMEx80 Digital\nEnviron. Sensor"
-					(at 0 10.16 0)
-					(effects
-						(font
-							(size 1.27 1.0795)
-						)
-					)
-				)
-				(text "Temp:"
-					(at -7.62 -11.43 0)
-					(effects
-						(font
-							(size 1.27 1.0795)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "VDD:"
-					(at -7.62 -9.525 0)
-					(effects
-						(font
-							(size 1.27 1.0795)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin power_in line
-					(at -12.7 -5.08 0)
-					(length 2.54)
-					(name "GND"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -347,15 +190,1198 @@
 					(number "1"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x07_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x07_Pin"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x07, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x07_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 7.62) (xy 0.8636 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 7.62 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:D_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "D_Small"
+				(at -3.81 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:LED_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Q_Dual_NMOS_G1S2G2D2S1D1"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 6.35 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Q_Dual_NMOS_G1S2G2D2S1D1"
+				(at 19.05 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual NMOS transistor, 6 pin package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TSOP* SC?70* SC?88* SOT?363*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_Dual_NMOS_G1S2G2D2S1D1_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Q_Dual_NMOS_G1S2G2D2S1D1_1_1"
 				(pin input line
-					(at 12.7 2.54 180)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "CSB"
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Q_Dual_NMOS_G1S2G2D2S1D1_2_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -371,8 +1397,966 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -5.08 180)
+					(at -5.08 0 0)
 					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Pack04_SIP_Split"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RN"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Pack04_SIP_Split"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_THT:R_Array_SIP8"
+				(at -2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4 resistor network, parallel topology, SIP package, split"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R network parallel topology isolated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R?Array?SIP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Pack04_SIP_Split_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Pack04_SIP_Split_1_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R1.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack04_SIP_Split_2_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R2.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack04_SIP_Split_3_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R3.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R3.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack04_SIP_Split_4_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R4.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R4.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Jumper:SolderJumper_2_Bridged"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Regulator_Linear:AP2112K-3.3"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AP2112K-3.3"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23?5*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AP2112K-3.3_0_1"
+				(rectangle
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AP2112K-3.3_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Sensor:BME680"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -8.89 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BME680"
+				(at 7.62 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering"
+				(at 36.83 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4-in-1 sensor, gas, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Bosch gas pressure humidity temperature environment environmental measurement digital"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*LGA*3x3mm*P0.8mm*Clockwise*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BME680_0_1"
+				(rectangle
+					(start -10.16 10.16)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "BME680_1_1"
+				(pin power_in line
+					(at -2.54 -15.24 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "CSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
 					(name "SDI"
 						(effects
 							(font
@@ -389,8 +2373,8 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -2.54 180)
-					(length 2.54)
+					(at 15.24 2.54 180)
+					(length 5.08)
 					(name "SCK"
 						(effects
 							(font
@@ -406,9 +2390,9 @@
 						)
 					)
 				)
-				(pin output line
-					(at 12.7 5.08 180)
-					(length 2.54)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 5.08)
 					(name "SDO"
 						(effects
 							(font
@@ -425,8 +2409,8 @@
 					)
 				)
 				(pin power_in line
-					(at -12.7 2.54 0)
-					(length 2.54)
+					(at -2.54 15.24 270)
+					(length 5.08)
 					(name "VDDIO"
 						(effects
 							(font
@@ -443,8 +2427,8 @@
 					)
 				)
 				(pin power_in line
-					(at -12.7 -5.08 0)
-					(length 2.54)
+					(at 2.54 -15.24 90)
+					(length 5.08)
 					(name "GND"
 						(effects
 							(font
@@ -455,14 +2439,14 @@
 					(number "7"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin power_in line
-					(at -12.7 5.08 0)
-					(length 2.54)
+					(at 2.54 15.24 270)
+					(length 5.08)
 					(name "VDD"
 						(effects
 							(font
@@ -480,542 +2464,16 @@
 				)
 			)
 		)
-		(symbol "BME680-eagle-import:CAP_CERAMIC0603_NO"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at -2.29 1.25 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 2.3 1.25 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "BME680:0603-NO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CAP_CERAMIC0603_NO_1_0"
-				(rectangle
-					(start -1.27 0.508)
-					(end 1.27 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.27 1.524)
-					(end 1.27 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.778)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "BME680-eagle-import:CAP_CERAMIC0805-NOOUTLINE"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at -2.29 1.25 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 2.3 1.25 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "BME680:0805-NO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CAP_CERAMIC0805-NOOUTLINE_1_0"
-				(rectangle
-					(start -1.27 0.508)
-					(end 1.27 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.27 1.524)
-					(end 1.27 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.778)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "BME680-eagle-import:DIODESOD-323"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 -2.5 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-				)
-			)
-			(property "Footprint" "BME680:SOD-323"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode\n\nSMA     Model   Volts   Amps   Type   Vf   Ir   Digikey #   Notes     SSA34-E3   40V   3A   Schottky   480mV @ 3A   200uA @ 40V   SSA34-E3/61TGITR-ND        CDBA120-G   20V   1A   Schottky   500mV @ 1A   500uA @ 20V   641-1014-6-ND   REEL     MBRA210   10V   2A   Schottky   350mV @ 2A   700uA @ 10V   MBRA210LT3      SOD-123     Model   Volts   Amps   Type   Vf   Ir   Order #   Notes     BAT54T1G   30V   200mA   Schottky   800mV @ 200mA   2uA @ 25V   BAT54T1GOSTR-ND        B0530W   30V   500mA   Schottky   430mV @ 500mA   130uA @ 30V   B0530W-FDICT-ND   REEL     MBR120   20V   1A   Schottky   340mV @ 1A      MBR120VLSFT1GOSCT-ND      SOD-323     Model   Volts   Amps   Type   Vf   Ir   Order #   Notes     PMEG2005EJ   20V   500mA   Schottky   355mV @ 500mA      568-4110-1-ND        ZLLS410   10V   570mA   Schottky   380mV @ 570mA      ZLLS410CT-ND        1N4148WS   75V   150mA   Silicon/Simple   1V      1N4148WSFSCT-ND   REEL   SOD-523     Model   Volts   Amps   Type   Vf   Ir   Order #   Notes     BAT54XV2   30V   200mA   Schottky   0.8V @ 100mA      BAT54XV2CT-ND        TB751S   30V   30mA   Schottky         RB751S-40TE61CT-ND      SOT23-R/W(R = Solder Paste/Reflow Ovens, W = Hand-Soldering)      Model   Volts   Amps   Type   Vf   Ir   Order #   Notes     BAT54FILM   40V   300mA   Schottky         497-7162-1-ND       POWERDI-5      Model   Volts   Amps   Type   Vf   Ir   Order #   Notes     PDS560   60V   5A   Schottky   670mV @ 5A   150uA @ 60V   PDS560DICT-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "DIODESOD-323_1_0"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "BME680-eagle-import:FIDUCIAL_1MM"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FID"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "BME680:FIDUCIAL_1MM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fiducial Alignment Points\n\nVarious fiducial points for machine vision alignment."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FIDUCIAL_1MM_1_0"
-				(polyline
-					(pts
-						(xy -0.762 0.762) (xy 0.762 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.762) (xy -0.762 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
-		(symbol "BME680-eagle-import:GND"
+		(symbol "power:+3.3V"
 			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1023,13 +2481,12 @@
 					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at -1.524 -2.54 0)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
 				(effects
 					(font
-						(size 1.27 1.0795)
+						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" ""
@@ -1050,7 +2507,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "GND"
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1059,2161 +2516,58 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(symbol "GND_1_0"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
-						(xy -1.27 0) (xy 1.27 0)
+						(xy -0.762 1.27) (xy 0 2.54)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
 				(pin power_in line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "BME680-eagle-import:HEADER-1X770MIL"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at -6.35 10.795 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -6.35 -12.7 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "BME680:1X07_ROUND_70"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "PIN HEADER"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "HEADER-1X770MIL_1_0"
-				(polyline
-					(pts
-						(xy -6.35 -10.16) (xy 1.27 -10.16)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 10.16) (xy -6.35 -10.16)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -10.16) (xy 1.27 10.16)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 10.16) (xy -6.35 10.16)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 7.62 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 5.08 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -7.62 0)
-					(length 2.54)
-					(name "7"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "BME680-eagle-import:LED0603_NOOUTLINE"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -1.27 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-				)
-			)
-			(property "Value" ""
-				(at -1.27 -2.794 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-				)
-			)
-			(property "Footprint" "BME680:CHIPLED_0603_NOOUTLINE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "LED\n\n0603 - 0603 Surface Mount Package\n\n2mA:\n\n• Green LED - Low Power (3.9mcd, 2ma, 1.7Vf) - Digikey: 475-2709-2-ND\n• Orange LED - Low Power (9.8mcd, 2ma, 1.8Vf) - Digikey: 475-1194-2-ND\n• Red LED - Low Power (5mcd, 2ma, 1.8Vf) - Digikey: 475-1195-2-ND\n• Yellow LED - Low Power (7mcd, 2ma, 1.8Vf) - Digikey: 475-1196-2-ND\n\n5mA:\n\n• Blue LED - Low Power (17mcd, 5ma, 2.9Vf) - Digikey: LNJ937W8CRACT-ND\n\n0805 - 0805 Surface Mount Package\n\n2mA:\n\n• Red LED (8.8mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2510-1-ND]\n• Green LED (5mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2730-1-ND]\n• Yellow LED (11.3mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2555-1-ND]\n\n20mA:\n\n• Red LED (104mcd, 20mA, Diffused) - LS R976 [Digikey: 475-1278-6-ND]\n• Red LED (12mcd, 20mA, 2.0Vf, Clear) - APT2012EC [Digikey: 754-1128-1-ND]\n• Green LED (15mcd, 20mA, 2.2Vf, Clear) - APT2012GC [Digikey: 754-1131-1-ND]\n• Orange LED (160mcd, 20mA, 2.1Vf, Clear) - APT2012SECK [Digikey: 754-1130-1-ND]\n\n• 1206 - 1206 Surface Mount Package\n\n• Green LED (26mcd, 20mA, Diffused) - LG N971  [Digikey: 475-1407-6-ND]\n• Red LED (15mcd, 20mA, Diffused) - LH N974 [Digikey: 475-1416-6-ND]\n\n• Cree - Cree High-Power Surface Mount LEDs\n\n• XPEBWT-L1-0000-00D50 - White 111lm 350mA 2.9Vf 6200K 110°\n• XTEAWT-00-0000-00000LEE3 - White 114lm 350mA 2.85Vf 5000K 115°\n\n• Everlight - Everlight 45-21 Series Surface Mount LEDs\n\n• 45-21/QK2C-B2832AC2CB2/2T - Warm White 2000mcd 20mA 3.25Vf 3050K 120°\n• 45-21/LK2C-B38452C4CB2/2T - Nuetral White 2000mcd 20mA 3.25Vf 4150K 120°\n• 45-21/LK2C-B50634C6CB2/2T - Cold White 2200mcd 20mA 3.25Vf 5650K 120°\n\n• PLCC2 Reverse Mount\n\n• LS T77K-J1L2-1-0-2-R18-Z - Red 11.25mcd 2mA 1.8Vf 630nm 120°\n• LO T77K-L1M2-24-Z - Orange 19.6mcd 2mA 1.8Vf 606nm 120°\n• LY T77K-K2M1-26-Z - Yellow 15.7mcd 2mA 1.8Vf 587nm 120°"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED0603_NOOUTLINE_1_0"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 1.27) (xy -0.635 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.9525 2.8575) (xy -0.3175 2.2225)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 1.27) (xy 0.635 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3175 2.2225) (xy 0 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.175) (xy -0.9525 2.8575)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.3175 2.8575) (xy 0.9525 2.2225)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.9525 2.2225) (xy 1.27 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.175) (xy 0.3175 2.8575)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "BME680-eagle-import:MOSFET-N_DUAL"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 0.635 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "BME680:SOT363"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual N-Channel MOSFET\n\nSOT363 (2.0x1.25mm)\n\n• 2N7002PS - 60V, 320mA [Digikey: 568-5984-1-ND]"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MOSFET-N_DUAL_1_0"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -2.54) (xy 0.762 -3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.905) (xy 0.762 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 0.762 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.762) (xy 0.762 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.54) (xy 0.762 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.175) (xy 0.762 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 0.762 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.508) (xy 3.048 0.254)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.302 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 2.54) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 0.508) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 0.762) (xy 4.318 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.302 -0.254) (xy 4.318 -0.254)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -2.54)
-					(radius 0.3592)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 0.3592)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "D"
-					(at 3.175 3.175 0)
-					(effects
-						(font
-							(size 0.8128 0.6908)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "G"
-					(at -1.27 -1.905 0)
-					(effects
-						(font
-							(size 0.8128 0.6908)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "S"
-					(at 3.175 -3.81 0)
-					(effects
-						(font
-							(size 0.8128 0.6908)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin bidirectional line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "MOSFET-N_DUAL_2_0"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -2.54) (xy 0.762 -3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.905) (xy 0.762 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 0.762 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.762) (xy 0.762 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.54) (xy 0.762 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.175) (xy 0.762 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 0.762 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.508) (xy 3.048 0.254)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.302 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 2.54) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 0.508) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 0.762) (xy 4.318 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.302 -0.254) (xy 4.318 -0.254)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -2.54)
-					(radius 0.3592)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 0.3592)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "D"
-					(at 3.175 3.175 0)
-					(effects
-						(font
-							(size 0.8128 0.6908)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "G"
-					(at -1.27 -1.905 0)
-					(effects
-						(font
-							(size 0.8128 0.6908)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "S"
-					(at 3.175 -3.81 0)
-					(effects
-						(font
-							(size 0.8128 0.6908)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin bidirectional line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "BME680-eagle-import:MOUNTINGHOLE2.5"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "BME680:MOUNTINGHOLE_2.5_PLATED"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole\n\nFor #2 screws (0.086\"/2.18mm width, 0.094\"/2.4mm hole) use 2.5mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MOUNTINGHOLE2.5_1_0"
-				(circle
-					(center 0 0)
-					(radius 1.905)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
-		(symbol "BME680-eagle-import:RESISTOR_0603_NOOUT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-						(bold yes)
-					)
-				)
-			)
-			(property "Footprint" "BME680:0603-NO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RESISTOR_0603_NOOUT_1_0"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "BME680-eagle-import:RESISTOR_4PACK"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-						(bold yes)
-					)
-				)
-			)
-			(property "Footprint" "BME680:RESPACK_4X0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor Packs (4 resistors)\n\n4 x 0603\n\n• 10K 1/16W - Digikey: YC164J-10KCT-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RESISTOR_4PACK_1_0"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(symbol "RESISTOR_4PACK_2_0"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(symbol "RESISTOR_4PACK_3_0"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(symbol "RESISTOR_4PACK_4_0"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "BME680-eagle-import:SOLDERJUMPER"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SJ"
-				(at -2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "BME680:SOLDERJUMPER_ARROW_NOPASTE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Solder JUMPER\n\nSolder the two pads together to create a connection, or remove the solder to break it.\n\nREFLOW - Use this footprint for solder paste and reflow ovens. WAVE - Use this footprint for hand-soldering (larger pads).\n\nCLOSED - Has a trace between the two pads to ensure it is closed by default.  The trace needs to be cut to disable the jumper, and can be closed again by creating a solder bridge between the two pads."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SOLDERJUMPER_1_0"
-				(arc
-					(start -0.3808 0.635)
-					(mid -1.0159 0.0001)
-					(end -0.381 -0.635)
-					(stroke
-						(width 1.27)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.651 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.651 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.3808 -0.635)
-					(mid 1.0159 -0.0001)
-					(end 0.381 0.635)
-					(stroke
-						(width 1.27)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "BME680-eagle-import:STEMMA_I2C_QT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CONN"
-				(at -3.81 8.255 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at -3.81 -7.62 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "BME680:JST_SH4"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "STEMMA_I2C_QT_1_0"
-				(polyline
-					(pts
-						(xy -3.81 -5.08) (xy 3.81 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 7.62) (xy -3.81 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -5.08) (xy 3.81 7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 7.62) (xy -3.81 7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive inverted
-					(at 0 5.08 0)
-					(length 2.54)
-					(name "GND"
+					(at 0 0 90)
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3223,100 +2577,6 @@
 					(number "1"
 						(effects
 							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at 0 2.54 0)
-					(length 2.54)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at 0 0 0)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at 0 -2.54 0)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(symbol "STEMMA_I2C_QT_2_0"
-				(pin bidirectional line
-					(at 0 0 0)
-					(length 5.08)
-					(name "MT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "STEMMA_I2C_QT_3_0"
-				(pin bidirectional line
-					(at 0 0 0)
-					(length 5.08)
-					(name "MT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MT2"
-						(effects
-							(font
 								(size 1.27 1.27)
 							)
 						)
@@ -3324,13 +2584,16 @@
 				)
 			)
 		)
-		(symbol "BME680-eagle-import:VCC"
+		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#P+"
-				(at 0 0 0)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3338,13 +2601,12 @@
 					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at -2.54 -2.54 90)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" ""
@@ -3365,7 +2627,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SUPPLY SYMBOL"
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3374,169 +2636,34 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(symbol "VCC_1_0"
+			(symbol "GND_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy -1.27 -1.905)
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -1.905) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
+			)
+			(symbol "GND_1_1"
 				(pin power_in line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "BME680-eagle-import:VREG_SOT23-5"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -7.62 6.096 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -7.62 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "BME680:SOT23-5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SOT23-5 Fixed Voltage Regulators\n\nPart Current Out V Out V In V Dropout θJA (°C/W) TJ (°C) Digikey Part No.     ADP121   150mA   3.3V   3.4-5.5V   0.09V @ 150mA   --   --   ADP121-AUJZ33R7CT-ND     ADP121   150mA   3.0V   3.1-5.5V   0.09V @ 150mA   --   --   ADP121-AUJZ30R7CT-ND     ADP122   300mA   3.3V   3.4-5.5V   0.085V @ 300mA   --   --   ADP122AUJZ-3.3-R7CT-ND     ADP1712   300mA   3.3V   3.5-5.5V   0.17V @ 300mA   --   --   ADP1712AUJZ-3.3-R7TR-ND     AP7311 (Low Cost)   150mA   3.3V   3.5-6V   0.15V @ 150mA   --   --   AP7311-33WG-7DICT-ND      LD39015M18R   150mA   1.8V   1.9V-5.5V   0.08V @ 100mA   --   --   497-6977-1-ND      LP2985A-33DBVR   150mA   3.3V   3.3-16V   0.28V @ 150mA   206   150   296-18479-1-ND      MCP1824T-3302E/OT   300mA   3.3V   3.5V-6V   0.2V @ 300mA   --   --   MCP1824T-3302E/OTCT-ND      MIC5205-2.5YM5 TR   150mA   2.5V   2.7-16V   0.165V @ 150mA   --   --   576-1257-2-ND     MIC5205-3.0YM5 TR   150mA   3.0V   3.2V-16V   0.165V @ 150mA   --   --   576-1258-2-ND     MIC5205-3.3YM5 TR   150mA   3.3V   3.5V-16V   0.165V @ 150mA   --   --   576-1259-2-ND     TPS780330220   150mA   3.3V+2.2V   3.6-5.5V   250mV Max   --   --   296-23332-1-ND     TDA3663/N1,135   100mA   3.3V   3.5-45V   0.18V @ 50mA   --   --   568-5343-1-ND\n\nMax operating temp can be calculated using θJA, TJ (max junction temperature), and power in watts.  Set the \"Maximum Ambient Temperature\" until it reaches TJ (\"Max Junction Temperature\"), which is the absolute limit for safe use of the regulator: http://www.daycounter.com/Calculators/Heat-Sink-Temperature-Calculator.phtml Heat Sink Temperature Calculator\n\nFor example, With 12V source into a 3.3V LP2985 and a 30mA load, we are dissipating (12V-3.3V) * 0.03A = 0.261W.  With a θJA of 206 °C/W, a TJ of 150°C, and 261mW we can safely use the chip without a heat sink up to 75°C (=147.1°C Junction Temperature)."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VREG_SOT23-5_1_0"
-				(polyline
-					(pts
-						(xy -7.62 -5.08) (xy -7.62 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy -7.62 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "IN"
+					(at 0 0 270)
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3551,87 +2678,18 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "P4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 		)
-		(symbol "BME680-eagle-import:supply1_GND"
+		(symbol "power:VCC"
 			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#GND"
-				(at 0 0 0)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3639,13 +2697,12 @@
 					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at -2.54 -2.54 0)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" ""
@@ -3666,7 +2723,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SUPPLY SYMBOL"
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3675,41 +2732,68 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(symbol "supply1_GND_1_0"
+			(symbol "VCC_0_1"
 				(polyline
 					(pts
-						(xy -1.905 0) (xy 1.905 0)
+						(xy -0.762 1.27) (xy 0 2.54)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
 				(pin power_in line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "GND"
+					(at 0 0 90)
+					(length 0)
+					(name "~"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -3724,28 +2808,46 @@
 		(uuid "04bb19ed-d860-4198-98d2-91607b0f97b4")
 	)
 	(junction
+		(at 147.32 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bc61fdb-0446-4685-a379-ee329cdaeb15")
+	)
+	(junction
+		(at 111.76 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d42a377-ec2d-4abf-afc1-58cd78d09ad1")
+	)
+	(junction
 		(at 139.7 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1a25af75-3c06-4821-90aa-ad60acc98290")
-	)
-	(junction
-		(at 27.94 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d884010-0d1f-4ee7-a7b4-c99c2a241b44")
-	)
-	(junction
-		(at 40.64 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b2fd9a2-dc34-4b5f-9680-a24edbd51cdd")
+		(uuid "62fd27e6-e1cc-4849-b880-d64601461bc1")
 	)
 	(junction
 		(at 182.88 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bca1850-6673-430c-aec5-acaa1ce61bbf")
+	)
+	(junction
+		(at 246.38 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa59a89c-881c-4a6c-8e32-05fb939b9255")
+	)
+	(junction
+		(at 27.94 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af89215a-22af-428b-a715-6235850ef3da")
+	)
+	(junction
+		(at 40.64 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdbdb030-643e-4a19-8bce-1931555ce7be")
 	)
 	(junction
 		(at 68.58 35.56)
@@ -3759,83 +2861,25 @@
 		(color 0 0 0 0)
 		(uuid "c8fc3838-b791-495e-8e40-f9911731f1f7")
 	)
-	(junction
-		(at 93.98 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cbc0f15b-2eee-49d1-815c-a18bd6da92e7")
-	)
-	(junction
-		(at 147.32 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce86642c-7592-42a7-bf67-c2d757c4d58f")
-	)
-	(junction
-		(at 246.38 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd95db4f-04ab-446c-9534-7df86c139154")
-	)
-	(polyline
+	(wire
 		(pts
-			(xy 20.32 66.04) (xy 86.36 66.04)
+			(xy 68.58 30.48) (xy 68.58 33.02)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "02823ca6-e2a7-4462-9981-63ef76df6fab")
+		(uuid "0984b0f3-0691-4914-b110-da9105ce761b")
 	)
 	(wire
 		(pts
-			(xy 99.06 139.7) (xy 93.98 139.7)
+			(xy 62.23 78.74) (xy 62.23 81.28)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "04e0f776-d1cd-49b5-aed9-ca1752d872d6")
-	)
-	(wire
-		(pts
-			(xy 40.64 38.1) (xy 40.64 35.56)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "087bf715-b800-48ee-9cc3-c9cba5c839d4")
-	)
-	(wire
-		(pts
-			(xy 58.42 101.6) (xy 45.72 101.6)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "088586cf-5937-40ff-a74b-66a879d00ef0")
-	)
-	(wire
-		(pts
-			(xy 58.42 88.9) (xy 43.18 88.9)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0bf7f790-1a8a-4ce0-8126-74b34c41dfeb")
-	)
-	(polyline
-		(pts
-			(xy 106.68 22.86) (xy 106.68 66.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0c0754d4-a69d-4c5f-b29e-41f31b1f728b")
+		(uuid "0d09bd72-c1c3-4f6c-90fa-16da84e365cb")
 	)
 	(polyline
 		(pts
@@ -3849,6 +2893,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 91.44) (xy 54.61 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "140a9a76-18c1-45e0-99a5-6cf2ea70b51b")
+	)
+	(wire
+		(pts
 			(xy 60.96 35.56) (xy 68.58 35.56)
 		)
 		(stroke
@@ -3859,17 +2913,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 48.26) (xy 27.94 50.8)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1b0b5ecc-f8a3-4f31-b7d4-12627b3df594")
-	)
-	(wire
-		(pts
-			(xy 96.52 45.72) (xy 96.52 43.18)
+			(xy 96.52 40.64) (xy 96.52 45.72)
 		)
 		(stroke
 			(width 0.1524)
@@ -3879,57 +2923,107 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 40.64) (xy 38.1 48.26)
+			(xy 196.85 99.06) (xy 196.85 104.14)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "29542afd-ec73-44eb-bf76-f3e98c0793c4")
-	)
-	(polyline
-		(pts
-			(xy 86.36 22.86) (xy 86.36 66.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2dc3f1a0-fccb-4b4e-881e-e7ed1df0ba87")
+		(uuid "1c113961-28e6-456f-8d53-e7396a2a8545")
 	)
 	(wire
 		(pts
-			(xy 246.38 106.68) (xy 246.38 99.06)
+			(xy 223.52 45.72) (xy 256.54 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20cd739c-4a6c-4ee0-8b8f-69cbec80d8b6")
+	)
+	(wire
+		(pts
+			(xy 121.92 45.72) (xy 147.32 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2716e22b-972a-45e5-9fa8-5e23382d8109")
+	)
+	(wire
+		(pts
+			(xy 246.38 99.06) (xy 246.38 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "276fafc8-942f-4b74-9be7-f43645f8163b")
+	)
+	(wire
+		(pts
+			(xy 175.26 27.94) (xy 175.26 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27a7fe1e-8083-48cc-8471-ab205d5388d2")
+	)
+	(wire
+		(pts
+			(xy 139.7 39.37) (xy 139.7 55.88)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "32e64816-0163-4e54-ab00-5d7e23dbd7cb")
+		(uuid "290c8af1-d11c-4c10-9022-fdcd59c46f8d")
 	)
 	(wire
 		(pts
-			(xy 139.7 43.18) (xy 139.7 55.88)
+			(xy 127 137.16) (xy 139.7 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30ca7835-b8db-44b4-a8c7-24170c31ab68")
+	)
+	(wire
+		(pts
+			(xy 50.8 48.26) (xy 50.8 45.72)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "3c04fd0f-ae08-443d-bc2f-d2aea35fd027")
+		(uuid "3384e82f-fdd2-4dc8-a759-361d75d38765")
 	)
 	(wire
 		(pts
-			(xy 167.64 40.64) (xy 167.64 30.48)
+			(xy 96.52 50.8) (xy 96.52 53.34)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "3d87f667-26a9-4544-9734-fea553d322f5")
+		(uuid "3893887c-bf8e-4584-9616-a0314d1eaac4")
 	)
 	(wire
 		(pts
-			(xy 218.44 116.84) (xy 205.74 116.84)
+			(xy 127 132.08) (xy 139.7 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ccecf8c-f546-47cf-99ed-5989a9d2f086")
+	)
+	(wire
+		(pts
+			(xy 209.55 116.84) (xy 196.85 116.84)
 		)
 		(stroke
 			(width 0.1524)
@@ -3969,7 +3063,17 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 91.44) (xy 68.58 91.44)
+			(xy 147.32 27.94) (xy 147.32 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4503c0ac-5b8e-4ff1-953d-12ad191be123")
+	)
+	(wire
+		(pts
+			(xy 54.61 91.44) (xy 71.12 91.44)
 		)
 		(stroke
 			(width 0.1524)
@@ -3979,7 +3083,27 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 45.72) (xy 78.74 50.8)
+			(xy 127 127) (xy 139.7 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46e98c70-b306-468a-880c-8393cb25150e")
+	)
+	(wire
+		(pts
+			(xy 223.52 43.18) (xy 256.54 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "474fb147-c54d-4025-9338-8135b2e2a646")
+	)
+	(wire
+		(pts
+			(xy 78.74 43.18) (xy 78.74 50.8)
 		)
 		(stroke
 			(width 0.1524)
@@ -3989,17 +3113,27 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 129.54) (xy 124.46 129.54)
+			(xy 157.48 27.94) (xy 157.48 48.26)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "50c63256-0e5b-4f2a-9f35-19f0c484fe3d")
+		(uuid "4a0281c0-5ae3-4648-bafc-002b053b2e5a")
 	)
 	(wire
 		(pts
-			(xy 40.64 35.56) (xy 27.94 35.56)
+			(xy 223.52 48.26) (xy 256.54 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c440041-3df8-46ad-b7ac-dc07f0143d54")
+	)
+	(wire
+		(pts
+			(xy 27.94 35.56) (xy 40.64 35.56)
 		)
 		(stroke
 			(width 0.1524)
@@ -4009,43 +3143,33 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 132.08) (xy 93.98 132.08)
+			(xy 59.69 93.98) (xy 71.12 93.98)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "57cfb955-e147-4e3c-8dff-eb234a702d06")
+		(uuid "56d428d7-c0b6-48fa-9a83-2bc7ec9c546c")
 	)
 	(wire
 		(pts
-			(xy 256.54 45.72) (xy 223.52 45.72)
+			(xy 109.22 116.84) (xy 111.76 116.84)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "58e38b82-e49f-425f-a44b-81c3b4f96cfd")
+		(uuid "58266754-0a53-46d4-853b-a7bb439d8b4c")
 	)
 	(wire
 		(pts
-			(xy 223.52 43.18) (xy 256.54 43.18)
+			(xy 114.3 116.84) (xy 111.76 116.84)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "58fa800a-170c-4cf0-a261-7fceb113b678")
-	)
-	(polyline
-		(pts
-			(xy 274.32 22.86) (xy 274.32 66.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5a6feb24-efc4-4b8f-9a1c-454aa0f6b20c")
+		(uuid "594b2807-514a-4c20-a704-8bb0be1b3f88")
 	)
 	(wire
 		(pts
@@ -4059,53 +3183,53 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 40.64) (xy 223.52 40.64)
+			(xy 111.76 115.57) (xy 111.76 116.84)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "5ae273d4-f22e-4353-a379-57a611bd5f70")
+		(uuid "6075d076-075b-44e1-b9cc-0e1cb4444763")
 	)
 	(wire
 		(pts
-			(xy 58.42 96.52) (xy 45.72 96.52)
+			(xy 59.69 96.52) (xy 71.12 96.52)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "5f1a1d4c-de57-425e-910a-41cc6491bfa7")
+		(uuid "6364b9f9-7262-480b-a81a-e7ff0e1a5011")
 	)
 	(wire
 		(pts
-			(xy 58.42 86.36) (xy 50.8 86.36)
+			(xy 175.26 40.64) (xy 175.26 43.18)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "6150d35d-d934-4609-bbd6-842e2e389fe4")
+		(uuid "64f1ee63-1e40-4a40-a627-cb4a299bc94c")
 	)
 	(wire
 		(pts
-			(xy 58.42 99.06) (xy 45.72 99.06)
+			(xy 147.32 40.64) (xy 147.32 43.18)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "62386696-0b81-4e57-bd62-999e3bc68944")
+		(uuid "66b26ce7-45bd-44af-9fb4-31ee7d1bca5d")
 	)
 	(wire
 		(pts
-			(xy 124.46 132.08) (xy 139.7 132.08)
+			(xy 71.12 86.36) (xy 62.23 86.36)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "68a617f1-5164-4023-8ca0-4b284c6f92df")
+		(uuid "66d20a7f-8ddf-4b67-b521-3ceab1f99ba9")
 	)
 	(wire
 		(pts
@@ -4117,35 +3241,35 @@
 		)
 		(uuid "6d75c27d-d29b-4a6c-b497-2135d5419350")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 208.28 66.04) (xy 274.32 66.04)
+			(xy 109.22 149.86) (xy 109.22 152.4)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "719135ac-c190-4eae-b49a-d72623db7f92")
+		(uuid "6f4104f1-4104-4952-af1f-2280c8a35497")
 	)
 	(wire
 		(pts
-			(xy 93.98 132.08) (xy 93.98 129.54)
+			(xy 58.42 35.56) (xy 60.96 35.56)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "74d4d87f-69d7-4336-a3ab-c20d274c676e")
+		(uuid "6fea0ceb-9fdd-4e41-9449-9c6ce2c77bac")
 	)
 	(wire
 		(pts
-			(xy 157.48 50.8) (xy 157.48 30.48)
+			(xy 43.18 38.1) (xy 40.64 38.1)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "76aa0423-dc48-451a-b847-53e441535dff")
+		(uuid "729a8469-b73d-4208-b2c0-a4f6ead54154")
 	)
 	(wire
 		(pts
@@ -4159,17 +3283,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 116.84) (xy 261.62 116.84)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "79b663d7-f1fa-44a2-b19e-d085456edfb5")
-	)
-	(wire
-		(pts
-			(xy 149.86 55.88) (xy 139.7 55.88)
+			(xy 152.4 55.88) (xy 139.7 55.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -4179,33 +3293,33 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 139.7) (xy 139.7 139.7)
+			(xy 27.94 35.56) (xy 27.94 39.37)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "7d6c391a-3f19-433c-85e5-fd493f5eb410")
+		(uuid "8a934d18-a364-4045-9915-aac4599cda02")
 	)
 	(wire
 		(pts
-			(xy 223.52 48.26) (xy 256.54 48.26)
+			(xy 59.69 99.06) (xy 71.12 99.06)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "825f4ede-a06a-4a2d-bace-6a5aeeb2f7ae")
+		(uuid "8b4b18cf-47fe-404d-b64f-a7ea5da1a890")
 	)
 	(wire
 		(pts
-			(xy 93.98 129.54) (xy 93.98 124.46)
+			(xy 78.74 50.8) (xy 78.74 53.34)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "89d3f8cf-d431-4021-a489-1471ba426ad4")
+		(uuid "8bb99231-873f-4255-af0d-07252f27991e")
 	)
 	(wire
 		(pts
@@ -4219,17 +3333,47 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 40.64) (xy 38.1 40.64)
+			(xy 96.52 30.48) (xy 96.52 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e74312-775b-4dff-b44d-e4bdf373d13a")
+	)
+	(wire
+		(pts
+			(xy 27.94 48.26) (xy 27.94 53.34)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "959425b6-eade-4ce4-99bb-1824fe879577")
+		(uuid "95ccb71a-6833-411c-ab68-29f9e0919701")
 	)
 	(wire
 		(pts
-			(xy 160.02 55.88) (xy 175.26 55.88)
+			(xy 78.74 30.48) (xy 78.74 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97f1fe38-ec38-4b8a-96c6-ccaf617bbb18")
+	)
+	(wire
+		(pts
+			(xy 54.61 88.9) (xy 71.12 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97ff4a68-33bf-4409-8c1b-d507836673be")
+	)
+	(wire
+		(pts
+			(xy 162.56 55.88) (xy 175.26 55.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -4239,7 +3383,67 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 48.26) (xy 27.94 43.18)
+			(xy 139.7 27.94) (xy 139.7 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a043201-79fe-46be-9822-3ea2ef314c82")
+	)
+	(wire
+		(pts
+			(xy 114.3 119.38) (xy 114.3 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b4de801-9ec5-482e-9638-def44f45a464")
+	)
+	(wire
+		(pts
+			(xy 139.7 33.02) (xy 139.7 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c3883c9-423b-4d64-b163-ad03afde9698")
+	)
+	(wire
+		(pts
+			(xy 121.92 55.88) (xy 139.7 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9edf0013-d139-46ba-86f7-f02e8c7354ea")
+	)
+	(wire
+		(pts
+			(xy 40.64 35.56) (xy 43.18 35.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9ffd064a-52e6-4583-8fcb-1d63ead3d774")
+	)
+	(wire
+		(pts
+			(xy 127 142.24) (xy 139.7 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a67eed74-82c0-4f3c-973c-9ba94892c1fc")
+	)
+	(wire
+		(pts
+			(xy 27.94 48.26) (xy 27.94 44.45)
 		)
 		(stroke
 			(width 0.1524)
@@ -4249,7 +3453,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 116.84) (xy 231.14 116.84)
+			(xy 214.63 116.84) (xy 222.25 116.84)
 		)
 		(stroke
 			(width 0.1524)
@@ -4259,7 +3463,17 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 48.26) (xy 27.94 48.26)
+			(xy 223.52 40.64) (xy 256.54 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9aa614a-db9c-406c-8b37-e336fff71101")
+	)
+	(wire
+		(pts
+			(xy 27.94 48.26) (xy 50.8 48.26)
 		)
 		(stroke
 			(width 0.1524)
@@ -4267,19 +3481,9 @@
 		)
 		(uuid "b3237011-8f81-4878-9747-607854f8e4a6")
 	)
-	(polyline
-		(pts
-			(xy 106.68 66.04) (xy 208.28 66.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "b4f6eb0b-2f9d-4a84-8d31-20fd6852a3bc")
-	)
 	(wire
 		(pts
-			(xy 43.18 88.9) (xy 43.18 81.28)
+			(xy 54.61 78.74) (xy 54.61 88.9)
 		)
 		(stroke
 			(width 0.1524)
@@ -4289,13 +3493,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 137.16) (xy 124.46 137.16)
+			(xy 40.64 38.1) (xy 40.64 35.56)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "b9f6b086-0b12-42ea-b2bd-34499e694d77")
+		(uuid "b98f09aa-c2d4-4c29-b907-651679e8fb43")
 	)
 	(wire
 		(pts
@@ -4306,6 +3510,16 @@
 			(type solid)
 		)
 		(uuid "bc0351aa-9440-436e-9ce1-f7e229936533")
+	)
+	(wire
+		(pts
+			(xy 196.85 109.22) (xy 196.85 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef7b6a7-dcba-426c-a38a-a188277cbff2")
 	)
 	(wire
 		(pts
@@ -4327,16 +3541,6 @@
 		)
 		(uuid "c451830e-fe71-44e0-b7a0-c72691b9bc24")
 	)
-	(polyline
-		(pts
-			(xy 86.36 66.04) (xy 106.68 66.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c5e82fab-b2b4-451c-8d79-d8f50342f30a")
-	)
 	(wire
 		(pts
 			(xy 160.02 45.72) (xy 147.32 45.72)
@@ -4349,13 +3553,33 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 116.84) (xy 205.74 111.76)
+			(xy 59.69 101.6) (xy 71.12 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c6ebbb43-2274-4047-b266-dfc17c9c9f41")
+	)
+	(wire
+		(pts
+			(xy 196.85 116.84) (xy 196.85 111.76)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "cba02f08-87cd-4941-aa78-53d26bd9c5e4")
+	)
+	(wire
+		(pts
+			(xy 109.22 119.38) (xy 109.22 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbdc7664-f727-495b-b52c-411ba687f8bf")
 	)
 	(wire
 		(pts
@@ -4369,13 +3593,53 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 86.36) (xy 50.8 81.28)
+			(xy 165.1 30.48) (xy 165.1 38.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d1bde5ad-b305-413f-9342-0ccd5151ec30")
+	)
+	(wire
+		(pts
+			(xy 27.94 30.48) (xy 27.94 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d261a0c0-5e80-4bf5-8548-7635abef7680")
+	)
+	(wire
+		(pts
+			(xy 62.23 86.36) (xy 62.23 81.28)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "d65eebc7-ed20-4d0b-8b38-4dd22d03e855")
+	)
+	(wire
+		(pts
+			(xy 165.1 27.94) (xy 165.1 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d67caf92-7d92-4505-a96b-421fe45f9ba3")
+	)
+	(wire
+		(pts
+			(xy 246.38 116.84) (xy 246.38 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d71b8ffd-ed22-46b3-a19b-f48df35ae0b1")
 	)
 	(wire
 		(pts
@@ -4389,6 +3653,26 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 40.64) (xy 182.88 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dae88593-b219-4c87-89d2-9232bf1fff89")
+	)
+	(wire
+		(pts
+			(xy 182.88 27.94) (xy 182.88 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daeb27f2-03d1-49ad-bb1b-105e707dbdbd")
+	)
+	(wire
+		(pts
 			(xy 78.74 33.02) (xy 78.74 38.1)
 		)
 		(stroke
@@ -4399,13 +3683,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 93.98) (xy 45.72 93.98)
+			(xy 68.58 50.8) (xy 68.58 53.34)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "e39b4d19-f3ef-4b47-b04f-a25e30a32e47")
+		(uuid "dfa92374-68cd-4ec9-b2f4-e49cfb05779a")
 	)
 	(wire
 		(pts
@@ -4419,6 +3703,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 109.22) (xy 246.38 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6cf8760-a984-42fc-bf57-7a60ae2dd5a8")
+	)
+	(wire
+		(pts
 			(xy 68.58 35.56) (xy 68.58 38.1)
 		)
 		(stroke
@@ -4429,17 +3723,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 45.72) (xy 121.92 45.72)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ea77322c-76f9-4a55-9179-db21699e39e1")
-	)
-	(wire
-		(pts
-			(xy 68.58 45.72) (xy 68.58 50.8)
+			(xy 68.58 43.18) (xy 68.58 50.8)
 		)
 		(stroke
 			(width 0.1524)
@@ -4447,49 +3731,9 @@
 		)
 		(uuid "f227b78b-7280-48cb-92a2-2f5b51abee8a")
 	)
-	(polyline
-		(pts
-			(xy 208.28 22.86) (xy 208.28 66.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f2f2a675-21d8-47b0-bc76-398fd3af8e5e")
-	)
 	(wire
 		(pts
-			(xy 99.06 129.54) (xy 93.98 129.54)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f363c96b-0c07-4b85-b5a0-dbfdc939dda8")
-	)
-	(wire
-		(pts
-			(xy 93.98 139.7) (xy 93.98 144.78)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f443559c-6d27-441c-b337-318514a6951f")
-	)
-	(wire
-		(pts
-			(xy 139.7 55.88) (xy 121.92 55.88)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f5a887f5-2d5c-4dad-81c4-d715762e64cd")
-	)
-	(wire
-		(pts
-			(xy 246.38 132.08) (xy 246.38 127)
+			(xy 246.38 128.27) (xy 246.38 132.08)
 		)
 		(stroke
 			(width 0.1524)
@@ -4519,17 +3763,6 @@
 		)
 		(uuid "1e64451f-d1e3-4467-9ba8-3366e8cffd62")
 	)
-	(text "D"
-		(exclude_from_sim no)
-		(at 149.86 58.42 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "3f489dcf-18db-4eaa-90af-3bfc00a5105c")
-	)
 	(text "I2C Pullups & Shift"
 		(exclude_from_sim no)
 		(at 111.76 63.5 0)
@@ -4552,17 +3785,6 @@
 		)
 		(uuid "970e75f7-4d96-4286-bfe8-d79cd50117a8")
 	)
-	(text "G"
-		(exclude_from_sim no)
-		(at 154.94 50.8 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "b5edc973-0143-4042-a7b4-41e4ba17dc0e")
-	)
 	(text "ON LED"
 		(exclude_from_sim no)
 		(at 88.9 63.5 0)
@@ -4574,36 +3796,25 @@
 		)
 		(uuid "da201f71-b6ba-4944-b133-e374f94db2a9")
 	)
-	(text "S"
-		(exclude_from_sim no)
-		(at 160.02 58.42 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "f30c6778-7071-486a-a809-198d90ed02df")
-	)
 	(label "CS_3V"
-		(at 129.54 132.08 0)
+		(at 139.7 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0b45e020-9374-4ce8-a088-1987213e0214")
 	)
 	(label "SCK_3V"
-		(at 198.12 55.88 0)
+		(at 198.12 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "3376e855-cce1-462d-a488-4ec75b84d398")
 	)
@@ -4619,7 +3830,7 @@
 		(uuid "3510fbf4-a299-4322-8f87-3c3933c4fd04")
 	)
 	(label "CS"
-		(at 45.72 101.6 0)
+		(at 59.69 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4630,7 +3841,7 @@
 		(uuid "5a907a43-c952-44ce-ab30-876a8d30fa92")
 	)
 	(label "SCK/SCL"
-		(at 45.72 93.98 0)
+		(at 59.69 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4641,7 +3852,7 @@
 		(uuid "5bf51a7b-585a-448a-8c4d-27bf9328a0ae")
 	)
 	(label "SDI/SDA"
-		(at 132.08 45.72 0)
+		(at 121.92 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4652,18 +3863,7 @@
 		(uuid "672dd36b-aadf-4f49-9097-f3ee65901352")
 	)
 	(label "SDO/ADR"
-		(at 248.92 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "72366026-8fe5-49b3-b7ae-5e1abf2ce7bc")
-	)
-	(label "SDO/ADR"
-		(at 45.72 96.52 0)
+		(at 59.69 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4674,7 +3874,7 @@
 		(uuid "758cac76-22dd-416e-bd96-d964d45fbe6c")
 	)
 	(label "CS_3V"
-		(at 208.28 116.84 0)
+		(at 199.39 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4696,24 +3896,24 @@
 		(uuid "82735c06-ca71-46ff-864f-ce013d55f8d8")
 	)
 	(label "SDI_3V"
-		(at 129.54 139.7 0)
+		(at 139.7 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9cd1141f-6af9-4ef4-a2e8-ff1a73426b66")
 	)
 	(label "CS"
-		(at 226.06 116.84 0)
+		(at 222.25 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b3b8a4c5-b973-4d42-9557-7daa9109659f")
 	)
@@ -4729,7 +3929,7 @@
 		(uuid "c4b73270-ed4f-40fa-84a4-8250f3c419a7")
 	)
 	(label "SDI/SDA"
-		(at 45.72 99.06 0)
+		(at 59.69 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4740,7 +3940,7 @@
 		(uuid "ca4164cd-34be-44b6-abfd-39ef23e55ab0")
 	)
 	(label "SCK/SCL"
-		(at 132.08 55.88 0)
+		(at 121.92 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4751,13 +3951,13 @@
 		(uuid "dc091755-53d3-458c-9c45-2fbb74380513")
 	)
 	(label "SDI_3V"
-		(at 198.12 45.72 0)
+		(at 198.12 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e6e5cfaa-d33e-40a0-b13a-74edccb2de00")
 	)
@@ -4773,24 +3973,24 @@
 		(uuid "e95d3dd2-f4c6-4544-9a30-c63ee2df648c")
 	)
 	(label "SCK_3V"
-		(at 129.54 137.16 0)
+		(at 139.7 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ec296904-1d93-463d-a73e-820e217152fa")
 	)
 	(label "SDO/ADR"
-		(at 129.54 129.54 0)
+		(at 139.7 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f01eab75-7993-4592-b3c7-4854e839cdb1")
 	)
@@ -4806,7 +4006,7 @@
 		(uuid "f37e5457-7aa9-4e97-8ba8-a4e2c1fde33c")
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:3.3V")
+		(lib_id "power:+3.3V")
 		(at 182.88 27.94 0)
 		(mirror y)
 		(unit 1)
@@ -4815,7 +4015,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "020750f0-3e26-4cd8-8e8c-a7ad21cd1ccc")
-		(property "Reference" "#U$7"
+		(property "Reference" "#U$07"
 			(at 182.88 27.94 0)
 			(effects
 				(font
@@ -4825,7 +4025,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 184.404 26.924 0)
+			(at 184.658 24.892 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -4851,7 +4051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 182.88 27.94 0)
 			(effects
 				(font
@@ -4866,18 +4066,18 @@
 		(instances
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "#U$7")
+					(reference "#U$07")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:MOUNTINGHOLE2.5")
+		(lib_id "Mechanical:MountingHole")
 		(at 261.62 167.64 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "041f6066-0993-4911-984c-d7853252a19a")
@@ -4899,7 +4099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "BME680:MOUNTINGHOLE_2.5_PLATED"
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
 			(at 261.62 167.64 0)
 			(effects
 				(font
@@ -4908,7 +4108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 261.62 167.64 0)
 			(effects
 				(font
@@ -4917,7 +4117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 261.62 167.64 0)
 			(effects
 				(font
@@ -4936,8 +4136,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
-		(at 27.94 40.64 0)
+		(lib_id "Device:C_Small")
+		(at 27.94 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4945,7 +4145,7 @@
 		(dnp no)
 		(uuid "17fb0378-cd2f-4fd9-89d9-d4302e95ca73")
 		(property "Reference" "C2"
-			(at 25.65 39.39 90)
+			(at 31.242 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4953,24 +4153,15 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 30.24 39.39 90)
+			(at 32.258 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "BME680:0805-NO"
-			(at 27.94 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 40.64 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 27.94 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4978,8 +4169,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 27.94 40.64 0)
+		(property "Datasheet" "~"
+			(at 27.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 27.94 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5003,7 +4203,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:VREG_SOT23-5")
+		(lib_id "Regulator_Linear:AP2112K-3.3")
 		(at 50.8 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5012,7 +4212,7 @@
 		(dnp no)
 		(uuid "25b720de-101b-442f-a704-90cfd17372c1")
 		(property "Reference" "U2"
-			(at 43.18 32.004 0)
+			(at 45.466 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -5021,7 +4221,7 @@
 			)
 		)
 		(property "Value" "AP2112K-3.3"
-			(at 43.18 45.72 0)
+			(at 45.466 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -5029,8 +4229,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "BME680:SOT23-5"
-			(at 50.8 38.1 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 50.8 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5038,8 +4238,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 50.8 38.1 0)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+			(at 50.8 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,7 +4247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
 			(at 50.8 38.1 0)
 			(effects
 				(font
@@ -5081,8 +4281,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:RESISTOR_0603_NOOUT")
-		(at 246.38 111.76 90)
+		(lib_id "Device:R_Small")
+		(at 246.38 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5090,7 +4290,7 @@
 		(dnp no)
 		(uuid "280f1a2a-bb6e-467c-b063-932bd028026c")
 		(property "Reference" "R4"
-			(at 243.84 111.76 0)
+			(at 243.84 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5098,7 +4298,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 246.38 111.76 0)
+			(at 249.174 106.68 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5106,8 +4306,8 @@
 				)
 			)
 		)
-		(property "Footprint" "BME680:0603-NO"
-			(at 246.38 111.76 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 246.38 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,8 +4315,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 246.38 111.76 0)
+		(property "Datasheet" "~"
+			(at 246.38 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5124,8 +4324,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 246.38 111.76 0)
+		(property "Description" "Resistor, small symbol"
+			(at 246.38 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5149,7 +4349,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:MOSFET-N_DUAL")
+		(lib_id "Device:Q_Dual_NMOS_G1S2G2D2S1D1")
 		(at 165.1 43.18 90)
 		(mirror x)
 		(unit 2)
@@ -5159,7 +4359,7 @@
 		(dnp no)
 		(uuid "2920a843-7cbc-4eb8-a0d0-213e7873eb87")
 		(property "Reference" "Q2"
-			(at 164.465 48.26 0)
+			(at 165.608 51.816 90)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -5168,7 +4368,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 166.37 48.26 0)
+			(at 168.402 50.038 90)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -5176,7 +4376,25 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "BME680:SOT363"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 165.1 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NMOS transistor, 6 pin package"
 			(at 165.1 43.18 0)
 			(effects
 				(font
@@ -5185,8 +4403,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 165.1 43.18 0)
+		(property "Sim.Device" "NMOS"
+			(at 182.245 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5194,8 +4412,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 165.1 43.18 0)
+		(property "Sim.Type" "VDMOS"
+			(at 184.15 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 180.34 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5231,7 +4458,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:3.3V")
+		(lib_id "power:+3.3V")
 		(at 96.52 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5239,7 +4466,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3180da31-8e7e-4c52-83ee-1ce3c2128448")
-		(property "Reference" "#U$3"
+		(property "Reference" "#U$03"
 			(at 96.52 30.48 0)
 			(effects
 				(font
@@ -5249,7 +4476,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 94.996 29.464 0)
+			(at 94.742 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -5275,7 +4502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 96.52 30.48 0)
 			(effects
 				(font
@@ -5290,14 +4517,14 @@
 		(instances
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "#U$3")
+					(reference "#U$03")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:GND")
+		(lib_id "power:GND")
 		(at 78.74 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5305,7 +4532,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "393d0ef9-ae9e-4113-9d9c-59ccca1c1f6a")
-		(property "Reference" "#U$6"
+		(property "Reference" "#U$06"
 			(at 78.74 53.34 0)
 			(effects
 				(font
@@ -5315,7 +4542,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.216 55.88 0)
+			(at 76.962 57.912 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -5341,7 +4568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 78.74 53.34 0)
 			(effects
 				(font
@@ -5356,15 +4583,15 @@
 		(instances
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "#U$6")
+					(reference "#U$06")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:RESISTOR_0603_NOOUT")
-		(at 96.52 38.1 270)
+		(lib_id "Device:R_Small")
+		(at 96.52 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5372,7 +4599,7 @@
 		(dnp no)
 		(uuid "4434cf0c-791e-4b12-b8ca-3c0168f89b83")
 		(property "Reference" "R1"
-			(at 99.06 38.1 0)
+			(at 93.98 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5380,7 +4607,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 96.52 38.1 0)
+			(at 99.314 38.1 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5388,7 +4615,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BME680:0603-NO"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 96.52 38.1 0)
 			(effects
 				(font
@@ -5397,7 +4624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 96.52 38.1 0)
 			(effects
 				(font
@@ -5406,7 +4633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 96.52 38.1 0)
 			(effects
 				(font
@@ -5431,8 +4658,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:MOSFET-N_DUAL")
-		(at 154.94 53.34 90)
+		(lib_id "Device:Q_Dual_NMOS_G1S2G2D2S1D1")
+		(at 157.48 53.34 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5441,7 +4668,7 @@
 		(dnp no)
 		(uuid "4dea13bb-9313-49b8-bf86-721fea738b60")
 		(property "Reference" "Q2"
-			(at 154.305 58.42 0)
+			(at 157.734 61.722 90)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -5450,7 +4677,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 156.21 58.42 0)
+			(at 160.782 59.817 90)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -5458,8 +4685,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "BME680:SOT363"
-			(at 154.94 53.34 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 157.48 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5467,8 +4694,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 154.94 53.34 0)
+		(property "Datasheet" "~"
+			(at 157.48 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5476,8 +4703,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 154.94 53.34 0)
+		(property "Description" "Dual NMOS transistor, 6 pin package"
+			(at 157.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 174.625 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 176.53 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 172.72 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5491,17 +4745,17 @@
 		(pin "2"
 			(uuid "7846ee95-690d-4c09-bfe4-681f12053a46")
 		)
-		(pin "6"
-			(uuid "e2435e52-8b57-40e7-ac6b-1b603928b99c")
-		)
 		(pin "3"
 			(uuid "2b3abba5-cc38-4a4a-a390-e63502e5e811")
 		)
-		(pin "4"
-			(uuid "d25dc3f0-c2c3-4aa4-8217-94e10ed800ae")
-		)
 		(pin "5"
-			(uuid "fecb30a7-a4e0-4bf0-a175-8668477f547f")
+			(uuid "72099ea3-7e3e-41a3-a6dc-daa31fc54c35")
+		)
+		(pin "4"
+			(uuid "23404116-b35b-4394-a2a2-3b08c830cb2b")
+		)
+		(pin "6"
+			(uuid "3ef8a789-7683-4daf-b6d7-0407af32b881")
 		)
 		(instances
 			(project "BME680"
@@ -5513,8 +4767,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:RESISTOR_4PACK")
-		(at 147.32 38.1 270)
+		(lib_id "Device:R_Pack04_SIP_Split")
+		(at 147.32 36.83 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5522,7 +4776,7 @@
 		(dnp no)
 		(uuid "547a2815-6eeb-4c5a-b230-b3e284879d01")
 		(property "Reference" "R3"
-			(at 149.86 38.1 0)
+			(at 150.622 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5530,7 +4784,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 147.32 38.1 0)
+			(at 150.368 37.592 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5538,8 +4792,8 @@
 				)
 			)
 		)
-		(property "Footprint" "BME680:RESPACK_4X0603"
-			(at 147.32 38.1 0)
+		(property "Footprint" "Resistor_THT:R_Array_SIP8"
+			(at 145.288 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5547,8 +4801,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 147.32 38.1 0)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 147.32 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5556,8 +4810,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 147.32 38.1 0)
+		(property "Description" "4 resistor network, parallel topology, SIP package, split"
+			(at 147.32 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5599,8 +4853,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:DIODESOD-323")
-		(at 220.98 116.84 0)
+		(lib_id "Device:D_Small")
+		(at 212.09 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5608,7 +4862,7 @@
 		(dnp no)
 		(uuid "55d6cac7-b780-4c95-85e8-80c8bd953d00")
 		(property "Reference" "D2"
-			(at 220.98 114.3 0)
+			(at 212.09 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -5616,15 +4870,15 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 220.98 119.34 0)
+			(at 212.09 114.34 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
 				)
 			)
 		)
-		(property "Footprint" "BME680:SOD-323"
-			(at 220.98 116.84 0)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 212.09 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5632,8 +4886,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 220.98 116.84 0)
+		(property "Datasheet" "~"
+			(at 212.09 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5641,8 +4895,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 220.98 116.84 0)
+		(property "Description" "Diode, small symbol"
+			(at 212.09 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5650,10 +4904,28 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
+		(property "Sim.Device" "D"
+			(at 212.09 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 212.09 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "66d00f8e-47cb-4b02-9110-e770e79c7395")
 		)
-		(pin "C"
+		(pin "2"
 			(uuid "c67b3688-fce8-4345-bfa9-04dd6ddc890b")
 		)
 		(instances
@@ -5666,8 +4938,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:RESISTOR_4PACK")
-		(at 139.7 38.1 270)
+		(lib_id "Device:R_Pack04_SIP_Split")
+		(at 139.7 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5675,7 +4947,7 @@
 		(dnp no)
 		(uuid "572c5b05-3dc7-4310-9023-d7c59da6b0e7")
 		(property "Reference" "R3"
-			(at 142.24 38.1 0)
+			(at 143.002 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5683,7 +4955,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 139.7 38.1 0)
+			(at 142.748 37.592 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5691,8 +4963,8 @@
 				)
 			)
 		)
-		(property "Footprint" "BME680:RESPACK_4X0603"
-			(at 139.7 38.1 0)
+		(property "Footprint" "Resistor_THT:R_Array_SIP8"
+			(at 137.668 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5700,8 +4972,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 139.7 38.1 0)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 139.7 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5709,8 +4981,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 139.7 38.1 0)
+		(property "Description" "4 resistor network, parallel topology, SIP package, split"
+			(at 139.7 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5721,26 +4993,26 @@
 		(pin "1"
 			(uuid "4a28e12a-26ce-4873-97c8-fabda9f02373")
 		)
-		(pin "8"
-			(uuid "a5ebdcf2-8858-490f-84f1-73ea532a7681")
-		)
 		(pin "2"
 			(uuid "6497e442-96cf-4c2f-81a5-b1c7f41429cd")
 		)
 		(pin "7"
-			(uuid "1915b87f-736a-41e6-8889-21134ef9679c")
+			(uuid "d9d04bf0-123e-4536-9971-41d4864f2c50")
 		)
-		(pin "3"
-			(uuid "55fd50b1-86b0-45ff-8f7b-e332510f9788")
-		)
-		(pin "6"
-			(uuid "16510433-3a28-4bfd-9953-318348b1673f")
+		(pin "8"
+			(uuid "2cd39d37-adfc-4cae-9b57-41bb12a70c71")
 		)
 		(pin "4"
-			(uuid "76b61c9b-4268-4f46-af33-aa13a6197cf1")
+			(uuid "b9b22b88-83b9-4c72-ac5d-40ba92c169d2")
+		)
+		(pin "3"
+			(uuid "253a1c7e-8937-4952-8994-8fc20d6fb516")
 		)
 		(pin "5"
-			(uuid "18004be1-ba98-4bbd-8d01-190e521aa019")
+			(uuid "e0fd39c5-a2bd-4f84-8586-a14b9ff2868f")
+		)
+		(pin "6"
+			(uuid "3b7bb7f6-2d16-4088-bff3-779b85fd42d2")
 		)
 		(instances
 			(project "BME680"
@@ -5752,11 +5024,11 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:MOUNTINGHOLE2.5")
+		(lib_id "Mechanical:MountingHole")
 		(at 261.62 175.26 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5fac7d3b-cca2-4837-99a7-351ccf96e9b1")
@@ -5778,7 +5050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "BME680:MOUNTINGHOLE_2.5_PLATED"
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
 			(at 261.62 175.26 0)
 			(effects
 				(font
@@ -5787,7 +5059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 261.62 175.26 0)
 			(effects
 				(font
@@ -5796,7 +5068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 261.62 175.26 0)
 			(effects
 				(font
@@ -5815,16 +5087,16 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:VCC")
-		(at 50.8 78.74 0)
+		(lib_id "power:VCC")
+		(at 62.23 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "66a33ef0-fbfc-470d-ad50-84951c30e152")
-		(property "Reference" "#P+4"
-			(at 50.8 78.74 0)
+		(property "Reference" "#P+04"
+			(at 62.23 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5833,16 +5105,16 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 48.26 81.28 90)
+			(at 60.706 75.438 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.0795 1.0795)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 78.74 0)
+			(at 62.23 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5851,7 +5123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 78.74 0)
+			(at 62.23 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5859,8 +5131,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 50.8 78.74 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 62.23 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5874,23 +5146,23 @@
 		(instances
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "#P+4")
+					(reference "#P+04")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:supply1_GND")
-		(at 96.52 55.88 0)
+		(lib_id "power:GND")
+		(at 96.52 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6947e034-f6fd-4876-9d2a-a6c9162d32e9")
-		(property "Reference" "#GND6"
-			(at 96.52 55.88 0)
+		(property "Reference" "#GND06"
+			(at 96.52 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5899,16 +5171,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 58.42 0)
+			(at 94.742 57.658 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.0795 1.0795)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 55.88 0)
+			(at 96.52 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5917,7 +5189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 55.88 0)
+			(at 96.52 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5925,8 +5197,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 96.52 55.88 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5940,14 +5212,14 @@
 		(instances
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "#GND6")
+					(reference "#GND06")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 27.94 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5955,7 +5227,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c4b2dee-4ec8-44b5-886f-9a986fb35961")
-		(property "Reference" "#P+3"
+		(property "Reference" "#P+03"
 			(at 27.94 30.48 0)
 			(effects
 				(font
@@ -5965,10 +5237,10 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 25.4 33.02 90)
+			(at 26.416 27.432 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.0795 1.0795)
 				)
 				(justify left bottom)
 			)
@@ -5991,7 +5263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 27.94 30.48 0)
 			(effects
 				(font
@@ -6006,15 +5278,16 @@
 		(instances
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "#P+3")
+					(reference "#P+03")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:STEMMA_I2C_QT")
-		(at 256.54 45.72 0)
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 261.62 43.18 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6022,7 +5295,7 @@
 		(dnp no)
 		(uuid "6c5abb5b-9d42-4527-b4c7-df4b1d70bad9")
 		(property "Reference" "CONN4"
-			(at 252.73 37.465 0)
+			(at 265.43 34.925 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6032,7 +5305,7 @@
 			)
 		)
 		(property "Value" "STEMMA_I2C_QT"
-			(at 252.73 53.34 0)
+			(at 265.43 50.8 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6041,8 +5314,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "BME680:JST_SH4"
-			(at 256.54 45.72 0)
+		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+			(at 261.62 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6050,8 +5323,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 256.54 45.72 0)
+		(property "Datasheet" "~"
+			(at 261.62 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6059,8 +5332,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 256.54 45.72 0)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 261.62 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6080,12 +5353,6 @@
 		(pin "4"
 			(uuid "7f7630ee-3138-41a3-bf39-ef81507b9c3c")
 		)
-		(pin "MT1"
-			(uuid "0dcbe4aa-e622-472e-b368-790dc084facb")
-		)
-		(pin "MT2"
-			(uuid "83f8aaa4-7bed-4660-8fd2-34e8b1e1bf36")
-		)
 		(instances
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
@@ -6096,7 +5363,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:3.3V")
+		(lib_id "power:+3.3V")
 		(at 68.58 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6104,7 +5371,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ee183c0-8734-4ff4-9d48-66e9a31eefa4")
-		(property "Reference" "#U$15"
+		(property "Reference" "#U$015"
 			(at 68.58 30.48 0)
 			(effects
 				(font
@@ -6114,7 +5381,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 67.056 29.464 0)
+			(at 66.802 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6140,7 +5407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 68.58 30.48 0)
 			(effects
 				(font
@@ -6155,14 +5422,14 @@
 		(instances
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "#U$15")
+					(reference "#U$015")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:3.3V")
+		(lib_id "power:+3.3V")
 		(at 157.48 27.94 0)
 		(mirror y)
 		(unit 1)
@@ -6171,7 +5438,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6fea6075-18e3-4339-bc88-86714e7ae670")
-		(property "Reference" "#U$26"
+		(property "Reference" "#U$026"
 			(at 157.48 27.94 0)
 			(effects
 				(font
@@ -6181,7 +5448,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 159.004 26.924 0)
+			(at 159.258 24.892 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6207,7 +5474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 157.48 27.94 0)
 			(effects
 				(font
@@ -6222,15 +5489,15 @@
 		(instances
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "#U$26")
+					(reference "#U$026")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:RESISTOR_0603_NOOUT")
-		(at 205.74 106.68 90)
+		(lib_id "Device:R_Small")
+		(at 196.85 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6238,7 +5505,7 @@
 		(dnp no)
 		(uuid "7a882cea-f3fb-4f46-a589-fadb8b4f6ce9")
 		(property "Reference" "R5"
-			(at 203.2 106.68 0)
+			(at 194.31 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6246,7 +5513,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 205.74 106.68 0)
+			(at 199.644 106.68 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6254,8 +5521,8 @@
 				)
 			)
 		)
-		(property "Footprint" "BME680:0603-NO"
-			(at 205.74 106.68 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 196.85 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6263,8 +5530,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 205.74 106.68 0)
+		(property "Datasheet" "~"
+			(at 196.85 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6272,8 +5539,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 205.74 106.68 0)
+		(property "Description" "Resistor, small symbol"
+			(at 196.85 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6297,16 +5564,16 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:HEADER-1X770MIL")
-		(at 60.96 93.98 0)
+		(lib_id "Connector:Conn_01x07_Pin")
+		(at 76.2 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "82c8e4f2-29d2-4473-a78f-85056b1c6ade")
-		(property "Reference" "JP1"
-			(at 54.61 83.185 0)
+		(property "Reference" "J1"
+			(at 75.438 81.534 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6315,7 +5582,7 @@
 			)
 		)
 		(property "Value" "HEADER-1X770MIL"
-			(at 54.61 106.68 0)
+			(at 82.55 81.28 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6324,8 +5591,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "BME680:1X07_ROUND_70"
-			(at 60.96 93.98 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
+			(at 76.2 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6333,8 +5600,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 60.96 93.98 0)
+		(property "Datasheet" "~"
+			(at 76.2 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6342,8 +5609,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 60.96 93.98 0)
+		(property "Description" "Generic connector, single row, 01x07, script generated"
+			(at 76.2 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6375,15 +5642,15 @@
 		(instances
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "JP1")
+					(reference "J1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:3.3V")
-		(at 167.64 27.94 0)
+		(lib_id "power:+3.3V")
+		(at 165.1 27.94 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6391,8 +5658,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f2119b8-62e7-4357-93e0-5b172f9b7395")
-		(property "Reference" "#U$23"
-			(at 167.64 27.94 0)
+		(property "Reference" "#U$023"
+			(at 165.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6401,7 +5668,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 169.164 26.924 0)
+			(at 166.878 24.892 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6410,7 +5677,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 27.94 0)
+			(at 165.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6419,7 +5686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 27.94 0)
+			(at 165.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6427,8 +5694,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 167.64 27.94 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 165.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6442,23 +5709,23 @@
 		(instances
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "#U$23")
+					(reference "#U$023")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:GND")
-		(at 246.38 134.62 0)
+		(lib_id "power:GND")
+		(at 246.38 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "93e126ac-0e13-4faf-a39c-e73636aebef3")
-		(property "Reference" "#U$9"
-			(at 246.38 134.62 0)
+		(property "Reference" "#U$09"
+			(at 246.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6467,7 +5734,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 244.856 137.16 0)
+			(at 244.602 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6476,7 +5743,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 134.62 0)
+			(at 246.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6485,7 +5752,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 134.62 0)
+			(at 246.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6493,8 +5760,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 246.38 134.62 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6508,14 +5775,14 @@
 		(instances
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "#U$9")
+					(reference "#U$09")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 139.7 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6523,7 +5790,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a09b4ba0-fd76-43c8-b0b0-3fce34a83454")
-		(property "Reference" "#P+1"
+		(property "Reference" "#P+01"
 			(at 139.7 27.94 0)
 			(effects
 				(font
@@ -6533,10 +5800,10 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 137.16 30.48 90)
+			(at 138.176 24.638 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.0795 1.0795)
 				)
 				(justify left bottom)
 			)
@@ -6559,7 +5826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 139.7 27.94 0)
 			(effects
 				(font
@@ -6574,23 +5841,23 @@
 		(instances
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "#P+1")
+					(reference "#P+01")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:GND")
-		(at 93.98 147.32 0)
+		(lib_id "power:GND")
+		(at 109.22 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a12c15eb-9248-4505-aa4f-2de09e6403d2")
-		(property "Reference" "#U$19"
-			(at 93.98 147.32 0)
+		(property "Reference" "#U$019"
+			(at 109.22 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6599,7 +5866,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.456 149.86 0)
+			(at 107.696 156.972 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6608,7 +5875,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 147.32 0)
+			(at 109.22 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6617,7 +5884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 147.32 0)
+			(at 109.22 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6625,8 +5892,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 93.98 147.32 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6640,23 +5907,23 @@
 		(instances
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "#U$19")
+					(reference "#U$019")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:SOLDERJUMPER")
-		(at 246.38 121.92 270)
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 246.38 124.46 270)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a9937430-f59c-4ff3-962f-4a9b14cbeafe")
 		(property "Reference" "SJ1"
-			(at 248.92 119.38 0)
+			(at 241.808 125.222 90)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6665,7 +5932,7 @@
 			)
 		)
 		(property "Value" "SOLDERJUMPER"
-			(at 242.57 119.38 0)
+			(at 242.57 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6674,8 +5941,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "BME680:SOLDERJUMPER_ARROW_NOPASTE"
-			(at 246.38 121.92 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 246.38 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6683,8 +5950,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 246.38 121.92 0)
+		(property "Datasheet" "~"
+			(at 246.38 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6692,8 +5959,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 246.38 121.92 0)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 246.38 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6717,7 +5984,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:GND")
+		(lib_id "power:GND")
 		(at 68.58 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6725,7 +5992,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac3b0a71-a0fa-42c1-839f-3161debab21b")
-		(property "Reference" "#U$5"
+		(property "Reference" "#U$05"
 			(at 68.58 53.34 0)
 			(effects
 				(font
@@ -6735,7 +6002,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.056 55.88 0)
+			(at 66.802 57.912 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6761,7 +6028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 68.58 53.34 0)
 			(effects
 				(font
@@ -6776,14 +6043,14 @@
 		(instances
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "#U$5")
+					(reference "#U$05")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:3.3V")
+		(lib_id "power:+3.3V")
 		(at 175.26 27.94 0)
 		(mirror y)
 		(unit 1)
@@ -6792,7 +6059,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b273b388-406d-417b-999e-22dd7532c268")
-		(property "Reference" "#U$24"
+		(property "Reference" "#U$024"
 			(at 175.26 27.94 0)
 			(effects
 				(font
@@ -6802,7 +6069,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 176.784 26.924 0)
+			(at 177.038 24.892 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6828,7 +6095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 175.26 27.94 0)
 			(effects
 				(font
@@ -6843,14 +6110,14 @@
 		(instances
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "#U$24")
+					(reference "#U$024")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:GND")
+		(lib_id "power:GND")
 		(at 27.94 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6858,7 +6125,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b300b20d-d62a-46d3-829d-6b69bf429949")
-		(property "Reference" "#U$13"
+		(property "Reference" "#U$013"
 			(at 27.94 53.34 0)
 			(effects
 				(font
@@ -6868,7 +6135,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 26.416 55.88 0)
+			(at 26.162 57.912 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6894,7 +6161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 27.94 53.34 0)
 			(effects
 				(font
@@ -6909,23 +6176,23 @@
 		(instances
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "#U$13")
+					(reference "#U$013")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:3.3V")
-		(at 205.74 99.06 0)
+		(lib_id "power:+3.3V")
+		(at 196.85 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b331889f-3533-4e06-bde3-19ca2fa5a748")
-		(property "Reference" "#U$42"
-			(at 205.74 99.06 0)
+		(property "Reference" "#U$042"
+			(at 196.85 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6934,7 +6201,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 204.216 98.044 0)
+			(at 195.072 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6943,7 +6210,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 99.06 0)
+			(at 196.85 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6952,7 +6219,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 99.06 0)
+			(at 196.85 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6960,8 +6227,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 205.74 99.06 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 196.85 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6975,15 +6242,15 @@
 		(instances
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "#U$42")
+					(reference "#U$042")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:RESISTOR_4PACK")
-		(at 182.88 38.1 90)
+		(lib_id "Device:R_Pack04_SIP_Split")
+		(at 182.88 36.83 0)
 		(mirror x)
 		(unit 4)
 		(exclude_from_sim no)
@@ -6992,7 +6259,7 @@
 		(dnp no)
 		(uuid "b8ab9bf3-6c0f-434f-a14a-6618491b71b8")
 		(property "Reference" "R3"
-			(at 180.34 38.1 0)
+			(at 186.182 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7000,7 +6267,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 182.88 38.1 0)
+			(at 185.928 37.592 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7008,8 +6275,8 @@
 				)
 			)
 		)
-		(property "Footprint" "BME680:RESPACK_4X0603"
-			(at 182.88 38.1 0)
+		(property "Footprint" "Resistor_THT:R_Array_SIP8"
+			(at 180.848 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7017,8 +6284,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 182.88 38.1 0)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 182.88 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7026,8 +6293,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 182.88 38.1 0)
+		(property "Description" "4 resistor network, parallel topology, SIP package, split"
+			(at 182.88 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7069,7 +6336,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 147.32 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7077,7 +6344,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bfed1d4d-6d33-4a9c-a55a-617891072612")
-		(property "Reference" "#P+2"
+		(property "Reference" "#P+02"
 			(at 147.32 27.94 0)
 			(effects
 				(font
@@ -7087,10 +6354,10 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 144.78 30.48 90)
+			(at 145.796 24.638 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.0795 1.0795)
 				)
 				(justify left bottom)
 			)
@@ -7113,7 +6380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 147.32 27.94 0)
 			(effects
 				(font
@@ -7128,15 +6395,15 @@
 		(instances
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "#P+2")
+					(reference "#P+02")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
-		(at 68.58 43.18 0)
+		(lib_id "Device:C_Small")
+		(at 68.58 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7144,7 +6411,7 @@
 		(dnp no)
 		(uuid "bff2b4d7-3398-4916-b4ea-f953d4851033")
 		(property "Reference" "C3"
-			(at 66.29 41.93 90)
+			(at 72.136 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7152,24 +6419,15 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 70.88 41.93 90)
+			(at 73.152 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "BME680:0805-NO"
-			(at 68.58 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 43.18 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 68.58 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7177,8 +6435,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 68.58 43.18 0)
+		(property "Datasheet" "~"
+			(at 68.58 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 68.58 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7202,8 +6469,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:STEMMA_I2C_QT")
-		(at 223.52 45.72 0)
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 218.44 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7211,7 +6478,7 @@
 		(dnp no)
 		(uuid "cd856c9f-b63f-48bb-937d-fc4b8be530b0")
 		(property "Reference" "CONN3"
-			(at 219.71 37.465 0)
+			(at 214.63 34.925 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7221,7 +6488,7 @@
 			)
 		)
 		(property "Value" "STEMMA_I2C_QT"
-			(at 219.71 53.34 0)
+			(at 214.63 50.8 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7230,8 +6497,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "BME680:JST_SH4"
-			(at 223.52 45.72 0)
+		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+			(at 218.44 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7239,8 +6506,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 223.52 45.72 0)
+		(property "Datasheet" "~"
+			(at 218.44 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7248,8 +6515,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 223.52 45.72 0)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 218.44 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7269,12 +6536,6 @@
 		(pin "3"
 			(uuid "19e60e9f-795f-4657-b9f1-1514c5671244")
 		)
-		(pin "MT1"
-			(uuid "e56d15a5-536e-4aed-b9c7-6391f1a6ffd7")
-		)
-		(pin "MT2"
-			(uuid "c94e3738-f6a8-4de5-b8d1-12f2a1d037cc")
-		)
 		(instances
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
@@ -7285,8 +6546,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:LED0603_NOOUTLINE")
-		(at 96.52 50.8 270)
+		(lib_id "Device:LED_Small")
+		(at 96.52 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7294,7 +6555,7 @@
 		(dnp no)
 		(uuid "cff5d8cc-c02b-4522-a71d-218652239bfb")
 		(property "Reference" "D1"
-			(at 100.965 49.53 0)
+			(at 93.472 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -7302,15 +6563,15 @@
 			)
 		)
 		(property "Value" "GREEN"
-			(at 93.726 49.53 0)
+			(at 101.092 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.0795)
 				)
 			)
 		)
-		(property "Footprint" "BME680:CHIPLED_0603_NOOUTLINE"
-			(at 96.52 50.8 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 96.52 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7318,8 +6579,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 96.52 50.8 0)
+		(property "Datasheet" "~"
+			(at 96.52 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7327,8 +6588,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 96.52 50.8 0)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 96.52 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7336,10 +6597,10 @@
 				(hide yes)
 			)
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "d49f3f79-eeb3-4208-b18a-ae3b63ee24c1")
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "82734fb5-3b37-4785-9b50-78bd9944a47d")
 		)
 		(instances
@@ -7352,16 +6613,16 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:GND")
-		(at 68.58 93.98 0)
+		(lib_id "power:GND")
+		(at 54.61 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "dcc64f13-bcad-4266-8095-3b12a4b247e2")
-		(property "Reference" "#U$10"
-			(at 68.58 93.98 0)
+		(property "Reference" "#U$010"
+			(at 54.61 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7370,7 +6631,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.056 96.52 0)
+			(at 52.832 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -7379,7 +6640,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 93.98 0)
+			(at 54.61 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7388,7 +6649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 93.98 0)
+			(at 54.61 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7396,8 +6657,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 68.58 93.98 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7411,23 +6672,23 @@
 		(instances
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "#U$10")
+					(reference "#U$010")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:3.3V")
-		(at 43.18 78.74 0)
+		(lib_id "power:+3.3V")
+		(at 54.61 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e0817426-cced-4d77-942c-e25b6fe3d112")
-		(property "Reference" "#U$16"
-			(at 43.18 78.74 0)
+		(property "Reference" "#U$016"
+			(at 54.61 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7436,7 +6697,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 41.656 77.724 0)
+			(at 52.832 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -7445,7 +6706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 78.74 0)
+			(at 54.61 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7454,7 +6715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 78.74 0)
+			(at 54.61 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7462,8 +6723,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 43.18 78.74 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 54.61 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7477,15 +6738,15 @@
 		(instances
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "#U$16")
+					(reference "#U$016")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:RESISTOR_4PACK")
-		(at 175.26 38.1 90)
+		(lib_id "Device:R_Pack04_SIP_Split")
+		(at 175.26 36.83 0)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -7494,7 +6755,7 @@
 		(dnp no)
 		(uuid "e28c313e-107e-4463-8c73-569287b8cea4")
 		(property "Reference" "R3"
-			(at 172.72 38.1 0)
+			(at 178.562 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7502,7 +6763,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 175.26 38.1 0)
+			(at 178.308 37.592 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7510,8 +6771,8 @@
 				)
 			)
 		)
-		(property "Footprint" "BME680:RESPACK_4X0603"
-			(at 175.26 38.1 0)
+		(property "Footprint" "Resistor_THT:R_Array_SIP8"
+			(at 173.228 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7519,8 +6780,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 175.26 38.1 0)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 175.26 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7528,8 +6789,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 175.26 38.1 0)
+		(property "Description" "4 resistor network, parallel topology, SIP package, split"
+			(at 175.26 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7571,8 +6832,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:CAP_CERAMIC0603_NO")
-		(at 78.74 43.18 0)
+		(lib_id "Device:C_Small")
+		(at 78.74 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7580,7 +6841,7 @@
 		(dnp no)
 		(uuid "e45677fd-c09c-4d17-a7a4-c8ae315340ca")
 		(property "Reference" "C1"
-			(at 76.45 41.93 90)
+			(at 82.296 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7588,24 +6849,15 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 81.04 41.93 90)
+			(at 83.566 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "BME680:0603-NO"
-			(at 78.74 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 43.18 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 78.74 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7613,8 +6865,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 78.74 43.18 0)
+		(property "Datasheet" "~"
+			(at 78.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 78.74 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7638,7 +6899,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:3.3V")
+		(lib_id "power:+3.3V")
 		(at 78.74 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7646,7 +6907,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4bc6aec-5054-491f-9b93-f4e12245d049")
-		(property "Reference" "#U$14"
+		(property "Reference" "#U$014"
 			(at 78.74 30.48 0)
 			(effects
 				(font
@@ -7656,7 +6917,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 77.216 29.464 0)
+			(at 76.962 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -7682,7 +6943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 78.74 30.48 0)
 			(effects
 				(font
@@ -7697,15 +6958,15 @@
 		(instances
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "#U$14")
+					(reference "#U$014")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:3.3V")
-		(at 246.38 96.52 0)
+		(lib_id "power:+3.3V")
+		(at 246.38 99.06 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7713,8 +6974,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e66605dc-cbc7-4e2c-a4ae-c6ee03a0250a")
-		(property "Reference" "#U$8"
-			(at 246.38 96.52 0)
+		(property "Reference" "#U$08"
+			(at 246.38 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7723,7 +6984,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 247.904 95.504 0)
+			(at 248.158 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -7732,7 +6993,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 96.52 0)
+			(at 246.38 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7741,7 +7002,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 96.52 0)
+			(at 246.38 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7749,8 +7010,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 246.38 96.52 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 246.38 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7764,23 +7025,23 @@
 		(instances
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "#U$8")
+					(reference "#U$08")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:3.3V")
-		(at 93.98 121.92 0)
+		(lib_id "power:+3.3V")
+		(at 111.76 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ecc90213-9982-4ffe-94f7-853596ac2766")
-		(property "Reference" "#U$12"
-			(at 93.98 121.92 0)
+		(property "Reference" "#U$012"
+			(at 111.76 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7789,7 +7050,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 92.456 120.904 0)
+			(at 109.982 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -7798,7 +7059,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 121.92 0)
+			(at 111.76 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7807,7 +7068,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 121.92 0)
+			(at 111.76 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7815,8 +7076,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 93.98 121.92 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 111.76 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7830,77 +7091,14 @@
 		(instances
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "#U$12")
+					(reference "#U$012")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "BME680-eagle-import:FIDUCIAL_1MM")
-		(at 254 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ed6a25cd-2bd8-4653-9d1b-4a8571091946")
-		(property "Reference" "FID4"
-			(at 254 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "FIDUCIAL_1MM"
-			(at 254 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "BME680:FIDUCIAL_1MM"
-			(at 254 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 254 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "BME680"
-				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "FID4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BME680-eagle-import:BME680")
+		(lib_id "Sensor:BME680")
 		(at 111.76 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7909,7 +7107,7 @@
 		(dnp no)
 		(uuid "f5d0a0a2-abad-41a2-b426-7b2020aa3b29")
 		(property "Reference" "IC1"
-			(at 101.6 120.65 0)
+			(at 101.346 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -7918,7 +7116,7 @@
 			)
 		)
 		(property "Value" "BME680"
-			(at 101.6 149.86 0)
+			(at 101.346 121.412 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -7926,8 +7124,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "BME680:BME680"
-			(at 111.76 134.62 0)
+		(property "Footprint" "Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering"
+			(at 148.59 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7935,8 +7133,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 111.76 134.62 0)
+		(property "Datasheet" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf"
+			(at 111.76 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7944,7 +7142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4-in-1 sensor, gas, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
 			(at 111.76 134.62 0)
 			(effects
 				(font
@@ -7981,69 +7179,6 @@
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
 					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BME680-eagle-import:FIDUCIAL_1MM")
-		(at 254 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f83bd407-1248-4f1d-b53e-0a81234a59ec")
-		(property "Reference" "FID3"
-			(at 254 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "FIDUCIAL_1MM"
-			(at 254 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "BME680:FIDUCIAL_1MM"
-			(at 254 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 254 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "BME680"
-				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "FID3")
 					(unit 1)
 				)
 			)
