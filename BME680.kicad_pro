@@ -52,7 +52,11 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_edge_clearance|161535000|102540000|0029ae38-1865-4125-b56d-a532b6a46f75|6762802a-83f5-4b0a-ab7c-4bb19d810fd0",
+        "copper_edge_clearance|161535000|108140000|0029ae38-1865-4125-b56d-a532b6a46f75|95f6ca5f-fcca-4c3b-b5c3-95dd85b8ef1a",
+        "starved_thermal|147331395|111500000|eba86e93-4fc6-4c3e-a735-70a51c724ab5|9981f229-0409-42fc-9125-a15b907d11e5|F.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -506,13 +510,13 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -521,17 +525,77 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Supplier",
+          "name": "Supplier",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "SPN",
+          "name": "SPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Componant package type",
+          "name": "Componant package type",
           "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Componant package type"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -575,7 +639,7 @@
   "sheets": [
     [
       "ba694707-55c1-41d4-b2e7-4006a8fc6a7f",
-      "Hoofd"
+      "Root"
     ]
   ],
   "text_variables": {}
