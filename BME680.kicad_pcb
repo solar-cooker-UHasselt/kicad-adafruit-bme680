@@ -426,7 +426,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" "DIODE GEN PURP 75V 150MA SOD323"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2180,7 +2180,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual NMOS transistor, 6 pin package"
+		(property "Description" "MOSFET 2N-CH 50V 0.2A SOT363"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2835,7 +2835,7 @@
 				)
 			)
 		)
-		(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
+		(property "Description" "IC REG LINEAR 3.3V 600MA SOT25"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3185,7 +3185,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x07, script generated"
+		(property "Description" "CONN HEADER VERT 7POS 2.54MM"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3197,7 +3197,7 @@
 				)
 			)
 		)
-		(property "Componant package type" ""
+		(property "Componant package type" "/"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3210,7 +3210,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "TSW-107-23-G-S"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3223,7 +3223,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samtec Inc."
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3236,7 +3236,7 @@
 				)
 			)
 		)
-		(property "SPN" ""
+		(property "SPN" "SAM1069-07-ND"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3249,7 +3249,7 @@
 				)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3846,7 +3846,7 @@
 				)
 			)
 		)
-		(property "Description" "4-in-1 sensor, gas, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
+		(property "Description" "SENSOR GAS/HUM/PRES/TEMP I2C OUT"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5674,7 +5674,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "LED GREEN CLEAR 0603 SMD"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
