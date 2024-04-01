@@ -9,248 +9,6 @@
 		(date "2024-03-06")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x04_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_Pin"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Conn_01x07_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -2710,16 +2468,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 83.82) (xy 259.08 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20cd739c-4a6c-4ee0-8b8f-69cbec80d8b6")
-	)
-	(wire
-		(pts
 			(xy 143.51 76.2) (xy 168.91 76.2)
 		)
 		(stroke
@@ -2830,16 +2578,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 81.28) (xy 259.08 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "474fb147-c54d-4025-9338-8135b2e2a646")
-	)
-	(wire
-		(pts
 			(xy 91.44 71.12) (xy 91.44 78.74)
 		)
 		(stroke
@@ -2857,16 +2595,6 @@
 			(type default)
 		)
 		(uuid "4a0281c0-5ae3-4648-bafc-002b053b2e5a")
-	)
-	(wire
-		(pts
-			(xy 245.11 86.36) (xy 259.08 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c440041-3df8-46ad-b7ac-dc07f0143d54")
 	)
 	(wire
 		(pts
@@ -3190,16 +2918,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 78.74) (xy 259.08 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9aa614a-db9c-406c-8b37-e336fff71101")
-	)
-	(wire
-		(pts
 			(xy 40.64 76.2) (xy 63.5 76.2)
 		)
 		(stroke
@@ -3499,17 +3217,6 @@
 		)
 		(uuid "1b98edfa-6559-4d63-9227-7494cd142fce")
 	)
-	(text "STEMMA/I2C Headers"
-		(exclude_from_sim no)
-		(at 236.982 72.644 0)
-		(effects
-			(font
-				(size 2.1844 1.8567)
-			)
-			(justify left bottom)
-		)
-		(uuid "1e64451f-d1e3-4467-9ba8-3366e8cffd62")
-	)
 	(text "I2C Pullups & Shift"
 		(exclude_from_sim no)
 		(at 173.99 48.26 0)
@@ -3564,17 +3271,6 @@
 			(justify right bottom)
 		)
 		(uuid "3376e855-cce1-462d-a488-4ec75b84d398")
-	)
-	(label "SCK/SCL"
-		(at 248.92 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "3510fbf4-a299-4322-8f87-3c3933c4fd04")
 	)
 	(label "CS"
 		(at 58.42 138.43 0)
@@ -3665,17 +3361,6 @@
 		(uuid "b3b8a4c5-b973-4d42-9557-7daa9109659f")
 	)
 	(label "SDI/SDA"
-		(at 248.92 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "c4b73270-ed4f-40fa-84a4-8250f3c419a7")
-	)
-	(label "SDI/SDA"
 		(at 58.42 135.89 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3708,17 +3393,6 @@
 		)
 		(uuid "e6e5cfaa-d33e-40a0-b13a-74edccb2de00")
 	)
-	(label "VCC"
-		(at 248.92 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "e95d3dd2-f4c6-4544-9a30-c63ee2df648c")
-	)
 	(label "SCK_3V"
 		(at 138.43 128.27 180)
 		(fields_autoplaced yes)
@@ -3740,17 +3414,6 @@
 			(justify right bottom)
 		)
 		(uuid "f01eab75-7993-4592-b3c7-4854e839cdb1")
-	)
-	(label "GND"
-		(at 248.92 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "f37e5457-7aa9-4e97-8ba8-a4e2c1fde33c")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -5493,129 +5156,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 264.16 81.28 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c5abb5b-9d42-4527-b4c7-df4b1d70bad9")
-		(property "Reference" "CONN4"
-			(at 267.97 73.025 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "STEMMA_I2C_QT"
-			(at 267.97 88.9 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
-			(at 264.16 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 264.16 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 264.16 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Componant package type" ""
-			(at 264.16 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 264.16 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 264.16 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPN" ""
-			(at 264.16 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 264.16 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce477f10-f083-470c-bc79-3fca5200d7f5")
-		)
-		(pin "2"
-			(uuid "bfb73a51-bba7-4420-9f14-cf85cf17eeae")
-		)
-		(pin "3"
-			(uuid "984c1ab4-6907-4753-ba08-6dc93b58062d")
-		)
-		(pin "4"
-			(uuid "7f7630ee-3138-41a3-bf39-ef81507b9c3c")
-		)
-		(instances
-			(project "BME680"
-				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "CONN4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 81.28 58.42 0)
 		(unit 1)
@@ -7037,128 +6577,6 @@
 			(project "BME680"
 				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 240.03 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cd856c9f-b63f-48bb-937d-fc4b8be530b0")
-		(property "Reference" "CONN3"
-			(at 236.22 73.025 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "STEMMA_I2C_QT"
-			(at 236.22 88.9 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
-			(at 240.03 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 240.03 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Componant package type" ""
-			(at 240.03 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 240.03 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 240.03 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPN" ""
-			(at 240.03 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 240.03 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "81a5a796-684d-42a5-8093-204975fd0592")
-		)
-		(pin "1"
-			(uuid "e4a5d841-dc9c-47e9-8fef-99da2be621a5")
-		)
-		(pin "2"
-			(uuid "075282c5-6133-4726-a941-ee4b410b11e1")
-		)
-		(pin "3"
-			(uuid "19e60e9f-795f-4657-b9f1-1514c5671244")
-		)
-		(instances
-			(project "BME680"
-				(path "/ba694707-55c1-41d4-b2e7-4006a8fc6a7f"
-					(reference "CONN3")
 					(unit 1)
 				)
 			)

@@ -51,15 +51,14 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "copper_edge_clearance|161535000|102540000|0029ae38-1865-4125-b56d-a532b6a46f75|6762802a-83f5-4b0a-ab7c-4bb19d810fd0",
-        "copper_edge_clearance|161535000|108140000|0029ae38-1865-4125-b56d-a532b6a46f75|95f6ca5f-fcca-4c3b-b5c3-95dd85b8ef1a",
-        "lib_footprint_mismatch|135875000|106300000|2bb88cfc-50cd-4101-ac05-1d8d6a28e3a9|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|160310000|105690000|86be8925-ce0e-401a-884a-d65bbcff6e43|00000000-0000-0000-0000-000000000000",
-        "silk_edge_clearance|135801100|103190000|a1de8cee-a712-44db-b595-c7262fac0f21|5c833d1b-a47d-4a30-9529-2ca9edaba03e",
-        "silk_edge_clearance|135801100|109410000|a1de8cee-a712-44db-b595-c7262fac0f21|8624744c-879c-4468-8312-dd060b2b2e18"
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
       ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -123,7 +122,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -177,7 +176,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -204,7 +205,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -513,13 +519,13 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -528,15 +534,75 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Supplier",
+          "name": "Supplier",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "SPN",
+          "name": "SPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Componant package type",
+          "name": "Componant package type",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
           "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
