@@ -5565,7 +5565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x07, script generated"
+		(property "Description" "CONN HEADER VERT 7POS 2.54MM"
 			(at 74.93 130.81 0)
 			(effects
 				(font
@@ -5574,7 +5574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Componant package type" ""
+		(property "Componant package type" "/"
 			(at 74.93 130.81 0)
 			(effects
 				(font
@@ -5583,7 +5583,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "TSW-107-23-G-S"
 			(at 74.93 130.81 0)
 			(effects
 				(font
@@ -5592,7 +5592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samtec Inc."
 			(at 74.93 130.81 0)
 			(effects
 				(font
@@ -5601,7 +5601,7 @@
 				(hide yes)
 			)
 		)
-		(property "SPN" ""
+		(property "SPN" "SAM1069-07-ND"
 			(at 74.93 130.81 0)
 			(effects
 				(font
@@ -5610,7 +5610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 74.93 130.81 0)
 			(effects
 				(font
