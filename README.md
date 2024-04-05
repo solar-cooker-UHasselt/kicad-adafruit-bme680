@@ -5,4 +5,4 @@
 
 ## Notes
 
-- connector TSW-107-23-G-S out of stock changing to 0022284073
+- connector TSW-107-23-G-S out of stock changing to PH1-07-UA
