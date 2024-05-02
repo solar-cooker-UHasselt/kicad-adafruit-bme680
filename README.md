@@ -5,4 +5,11 @@
 
 ## Notes
 
+> [!WARNING]
+> manufactured pcb does not work
+
 - connector TSW-107-23-G-S out of stock changing to PH1-07-UA
+
+## TODO
+
+- [ ] Compare original BOM with current BOM to check for possible errors
