@@ -2867,7 +2867,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3493,7 +3493,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf"
+		(property "Datasheet" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5811,7 +5811,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5894,7 +5894,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "SolderJumper*Bridged*")
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/a9937430-f59c-4ff3-962f-4a9b14cbeafe")
 		(sheetname "Root")
 		(sheetfile "BME680.kicad_sch")
