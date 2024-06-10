@@ -4024,15 +4024,6 @@
 				(hide yes)
 			)
 		)
-		(property "Componant package type" ""
-			(at 240.03 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" ""
 			(at 240.03 110.49 0)
 			(effects
@@ -4124,15 +4115,6 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose"
-			(at 204.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Componant package type" "R_0603"
 			(at 204.47 66.04 0)
 			(effects
 				(font
@@ -4244,15 +4226,6 @@
 				(hide yes)
 			)
 		)
-		(property "Componant package type" "C_0805"
-			(at 40.64 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "/"
 			(at 40.64 69.85 0)
 			(effects
@@ -4350,15 +4323,6 @@
 			)
 		)
 		(property "Description" "IC REG LINEAR 3.3V 600MA SOT25"
-			(at 63.5 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Componant package type" "SOT-25"
 			(at 63.5 66.04 0)
 			(effects
 				(font
@@ -4480,15 +4444,6 @@
 				(hide yes)
 			)
 		)
-		(property "Componant package type" "R_0603"
-			(at 199.39 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "/"
 			(at 199.39 129.54 0)
 			(effects
@@ -4586,15 +4541,6 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose"
-			(at 196.85 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Componant package type" "R_0603"
 			(at 196.85 66.04 0)
 			(effects
 				(font
@@ -4701,15 +4647,6 @@
 			)
 		)
 		(property "Description" "MOSFET 2N-CH 50V 0.2A SOT363"
-			(at 186.69 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Componant package type" "SOT-363"
 			(at 186.69 73.66 0)
 			(effects
 				(font
@@ -4966,15 +4903,6 @@
 				(hide yes)
 			)
 		)
-		(property "Componant package type" "R_0603"
-			(at 118.11 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "/"
 			(at 118.11 66.04 0)
 			(effects
@@ -5074,15 +5002,6 @@
 			)
 		)
 		(property "Description" "MOSFET 2N-CH 50V 0.2A SOT363"
-			(at 179.07 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Componant package type" "SOT-363"
 			(at 179.07 83.82 0)
 			(effects
 				(font
@@ -5206,15 +5125,6 @@
 				(hide yes)
 			)
 		)
-		(property "Componant package type" "SOD-323"
-			(at 175.26 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "1N4148WX-TP"
 			(at 175.26 132.08 0)
 			(effects
@@ -5312,15 +5222,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 240.03 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Componant package type" ""
 			(at 240.03 118.11 0)
 			(effects
 				(font
@@ -5758,15 +5659,6 @@
 				(hide yes)
 			)
 		)
-		(property "Componant package type" "R_0603"
-			(at 162.56 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "/"
 			(at 162.56 127 0)
 			(effects
@@ -5864,15 +5756,6 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose"
-			(at 161.29 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Componant package type" "R_0603"
 			(at 161.29 66.04 0)
 			(effects
 				(font
@@ -5979,15 +5862,6 @@
 			)
 		)
 		(property "Description" "CONN HEADER VERT 7POS 2.54MM"
-			(at 74.93 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Componant package type" "/"
 			(at 74.93 130.81 0)
 			(effects
 				(font
@@ -6382,15 +6256,6 @@
 				(hide yes)
 			)
 		)
-		(property "Componant package type" ""
-			(at 199.39 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" ""
 			(at 199.39 138.43 0)
 			(effects
@@ -6761,15 +6626,6 @@
 				(hide yes)
 			)
 		)
-		(property "Componant package type" "R_0603"
-			(at 168.91 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "/"
 			(at 168.91 66.04 0)
 			(effects
@@ -6939,15 +6795,6 @@
 				(hide yes)
 			)
 		)
-		(property "Componant package type" "C_0805"
-			(at 81.28 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "/"
 			(at 81.28 68.58 0)
 			(effects
@@ -7043,15 +6890,6 @@
 			)
 		)
 		(property "Description" "LED GREEN CLEAR 0603 SMD"
-			(at 118.11 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Componant package type" "LED_0603"
 			(at 118.11 76.2 0)
 			(effects
 				(font
@@ -7287,15 +7125,6 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 91.44 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Componant package type" "C_0603"
 			(at 91.44 68.58 0)
 			(effects
 				(font
@@ -7600,15 +7429,6 @@
 			)
 		)
 		(property "Description" "SENSOR GAS/HUM/PRES/TEMP I2C OUT"
-			(at 113.03 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Componant package type" "/"
 			(at 113.03 130.81 0)
 			(effects
 				(font
