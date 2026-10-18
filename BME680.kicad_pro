@@ -504,8 +504,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "solar_cooker"
+    ],
+    "pinned_symbol_libs": [
+      "solar_cooker"
+    ]
   },
   "meta": {
     "filename": "BME680.kicad_pro",
