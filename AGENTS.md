@@ -15,7 +15,7 @@ code: the repo is a KiCad project, checked by KiBot in CI through the shared wor
 Changes to the board setup, CI or docs are made and tested in the reference repo,
 [kicad-adafruit-ds3231](https://github.com/solar-cooker-UHasselt/kicad-adafruit-ds3231),
 first, then copied here. Not here yet, unlike ds3231: the Eurocircuits design rules
-(`.kicad_dru`), Renovate, and the release workflow.
+(`.kicad_dru`) and Renovate.
 
 ## Repository map
 
@@ -118,6 +118,9 @@ exceptions and link check:
   from `main` only: every push that changes more than Markdown, and manual runs. Pull
   requests never publish.
   <https://solar-cooker-uhasselt.github.io/kicad-adafruit-bme680/>
+- A pushed tag like `v1.2` makes a draft release of that order, by
+  `.github/workflows/release.yml`. The tag must match the board revision. Only the
+  maintainer tags and publishes. How it works: kicad-ci's README, "Release an order".
 
 ## References
 
