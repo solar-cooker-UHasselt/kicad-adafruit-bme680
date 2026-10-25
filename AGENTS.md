@@ -15,7 +15,7 @@ code: the repo is a KiCad project, checked by KiBot in CI through the shared wor
 Changes to the board setup, CI or docs are made and tested in the reference repo,
 [kicad-adafruit-ds3231](https://github.com/solar-cooker-UHasselt/kicad-adafruit-ds3231),
 first, then copied here. Not here yet, unlike ds3231: the Eurocircuits design rules
-(`.kicad_dru`), Renovate, and the Lint and release workflows.
+(`.kicad_dru`), Renovate, and the release workflow.
 
 ## Repository map
 
@@ -28,7 +28,7 @@ sym-lib-table             # symbol library: solar_cooker from kicad-common
 fp-lib-table              # footprint library: solar_cooker from kicad-common
 kicad-common/             # git submodule, own symbols, footprints and 3D models
 justfile                  # ERC, DRC, PDFs, local CI
-.github/workflows/        # thin wrapper calling kicad-ci at @v1
+.github/workflows/        # thin wrappers calling kicad-ci at @v1
 .github/CODEOWNERS        # who approves pull requests
 .agents/                  # commit and documentation conventions
 ```
@@ -74,6 +74,8 @@ Before finishing, re-read the diff and check it follows existing patterns, is mi
   applies. The KiBot image is pinned in kicad-ci, not here.
 - **kicad-happy.** Use its `kicad` skill for a design review of the schematic and
   board. House rules it does not know are in this file and `.agents/`.
+- **Lint, through kicad-ci.** `.github/workflows/lint.yml` runs actionlint, with
+  ShellCheck on the `run:` scripts, when a file in `.github/workflows/` changes.
 
 ## Security
 
