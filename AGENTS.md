@@ -14,8 +14,9 @@ code: the repo is a KiCad project, checked by KiBot in CI through the shared wor
 
 Changes to the board setup, CI or docs are made and tested in the reference repo,
 [kicad-adafruit-ds3231](https://github.com/solar-cooker-UHasselt/kicad-adafruit-ds3231),
-first, then copied here. Not here yet, unlike ds3231: the Eurocircuits design rules
-(`.kicad_dru`) and Renovate.
+first, then copied here.
+
+Not here yet, unlike ds3231: the Eurocircuits design rules (`.kicad_dru`) and Renovate.
 
 ## Repository map
 
