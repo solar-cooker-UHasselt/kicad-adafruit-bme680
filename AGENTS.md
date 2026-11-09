@@ -77,10 +77,10 @@ Before finishing, re-read the diff and check it follows existing patterns, is mi
   applies. The KiBot image is pinned in kicad-ci, not here.
 - **kicad-happy.** Use its `kicad` skill for a design review of the schematic and
   board. House rules it does not know are in this file and `.agents/`.
-- **Renovate.** PRs open on weekends, listed in its Dependency Dashboard issue. It
-  updates the `kicad-common` submodule to its latest `main` (`chore(lib)`). Its PR
-  needs the same approval as any other (see Commit & PR guidelines): a maintainer
-  approves it, or an admin merges with `gh pr merge … --admin`.
+- **Renovate.** Dashboard in issue #1, PRs open on weekends. It updates the
+  `kicad-common` submodule to its latest `main` (`chore(lib)`). Its PR needs the same
+  approval as any other (see Commit & PR guidelines): a maintainer approves it, or an
+  admin merges with `gh pr merge … --admin`.
 - **Lint, through kicad-ci.** `.github/workflows/lint.yml` runs actionlint, with
   ShellCheck on the `run:` scripts, when a file in `.github/workflows/` changes.
 
