@@ -16,7 +16,7 @@ Changes to the board setup, CI or docs are made and tested in the reference repo
 [kicad-adafruit-ds3231](https://github.com/solar-cooker-UHasselt/kicad-adafruit-ds3231),
 first, then copied here.
 
-Not here yet, unlike ds3231: the Eurocircuits design rules (`.kicad_dru`) and Renovate.
+Not here yet, unlike ds3231: the Eurocircuits design rules (`.kicad_dru`).
 
 ## Repository map
 
@@ -31,6 +31,7 @@ kicad-common/             # git submodule, own symbols, footprints and 3D models
 justfile                  # ERC, DRC, PDFs, local CI
 .github/workflows/        # thin wrappers calling kicad-ci at @v1
 .github/CODEOWNERS        # who approves pull requests
+renovate.json             # org Renovate settings, plus the kicad-common submodule
 .agents/                  # commit and documentation conventions
 ```
 
@@ -43,6 +44,7 @@ justfile                  # ERC, DRC, PDFs, local CI
 | An own symbol, footprint or 3D model         | the `kicad-common` repo, then update the submodule here |
 | ERC/DRC in CI, the board page, KiBot outputs | the `kicad-ci` repo, then move its `v1` tag             |
 | Which kicad-ci workflows run, and when       | `.github/workflows/`                                    |
+| Dependency updates                           | `renovate.json`, shared settings in the org's `.github` |
 
 The maintainer edits the schematic and board in KiCad. Agents read the files, run the
 checks, and change text files (`sym-lib-table`, `.kicad_pro` fields, workflows, docs).
@@ -75,6 +77,10 @@ Before finishing, re-read the diff and check it follows existing patterns, is mi
   applies. The KiBot image is pinned in kicad-ci, not here.
 - **kicad-happy.** Use its `kicad` skill for a design review of the schematic and
   board. House rules it does not know are in this file and `.agents/`.
+- **Renovate.** PRs open on weekends, listed in its Dependency Dashboard issue. It
+  updates the `kicad-common` submodule to its latest `main` (`chore(lib)`). Its PR
+  needs the same approval as any other (see Commit & PR guidelines): a maintainer
+  approves it, or an admin merges with `gh pr merge … --admin`.
 - **Lint, through kicad-ci.** `.github/workflows/lint.yml` runs actionlint, with
   ShellCheck on the `run:` scripts, when a file in `.github/workflows/` changes.
 
